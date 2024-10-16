@@ -6,6 +6,9 @@
 
 # Compiled MEX binaries (all platforms)
 *.mex*
+*.bin
+*.hex
+*.elf
 
 # Packaged app and toolbox files
 *.mlappinstall
@@ -17,6 +20,7 @@ helpsearch*/
 # Simulink code generation folders
 slprj/
 sccprj/
+*_ert_rtw/
 
 # Matlab code generation folders
 codegen/
