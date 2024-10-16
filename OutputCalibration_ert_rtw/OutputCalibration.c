@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'OutputCalibration'.
  *
- * Model version                  : 1.15
+ * Model version                  : 1.21
  * Simulink Coder version         : 24.2 (R2024b) 21-Jun-2024
- * C/C++ source code generated on : Fri Oct 11 18:28:37 2024
+ * C/C++ source code generated on : Wed Oct 16 11:57:03 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex-M
@@ -60,6 +60,10 @@ void OutputCalibration_step(void)
   MW_PWM_SetDutyCycle(OutputCalibration_DW.obj_o.MW_PWM_HANDLE,
                       OutputCalibration_B.v);
 
+  /* MATLABSystem: '<Root>/PWM Output1' */
+  MW_PWM_SetDutyCycle(OutputCalibration_DW.obj_p.MW_PWM_HANDLE,
+                      OutputCalibration_B.v);
+
   /* Update absolute time for base rate */
   /* The "clockTick0" counts the number of times the code of this task has
    * been executed. The absolute time is the multiplication of "clockTick0"
@@ -79,21 +83,22 @@ void OutputCalibration_initialize(void)
   OutputCalibration_M->Timing.stepSize0 = 0.005;
 
   /* External mode info */
-  OutputCalibration_M->Sizes.checksums[0] = (3433326137U);
-  OutputCalibration_M->Sizes.checksums[1] = (3538143397U);
-  OutputCalibration_M->Sizes.checksums[2] = (3518335227U);
-  OutputCalibration_M->Sizes.checksums[3] = (3898871054U);
+  OutputCalibration_M->Sizes.checksums[0] = (1227804786U);
+  OutputCalibration_M->Sizes.checksums[1] = (4007940911U);
+  OutputCalibration_M->Sizes.checksums[2] = (3553038413U);
+  OutputCalibration_M->Sizes.checksums[3] = (3599499608U);
 
   {
     static const sysRanDType rtAlwaysEnabled = SUBSYS_RAN_BC_ENABLE;
     static RTWExtModeInfo rt_ExtModeInfo;
-    static const sysRanDType *systemRan[4];
+    static const sysRanDType *systemRan[5];
     OutputCalibration_M->extModeInfo = (&rt_ExtModeInfo);
     rteiSetSubSystemActiveVectorAddresses(&rt_ExtModeInfo, systemRan);
     systemRan[0] = &rtAlwaysEnabled;
     systemRan[1] = &rtAlwaysEnabled;
     systemRan[2] = &rtAlwaysEnabled;
     systemRan[3] = &rtAlwaysEnabled;
+    systemRan[4] = &rtAlwaysEnabled;
     rteiSetModelMappingInfoPtr(OutputCalibration_M->extModeInfo,
       &OutputCalibration_M->SpecialInfo.mappingInfo);
     rteiSetChecksumsPtr(OutputCalibration_M->extModeInfo,
@@ -113,6 +118,13 @@ void OutputCalibration_initialize(void)
   OutputCalibration_DW.obj_o.MW_PWM_HANDLE = MW_PWM_Open(PA_6, 10000.0, 57.6);
   MW_PWM_Start(OutputCalibration_DW.obj_o.MW_PWM_HANDLE);
   OutputCalibration_DW.obj_o.isSetupComplete = true;
+
+  /* Start for MATLABSystem: '<Root>/PWM Output1' */
+  OutputCalibration_DW.obj_p.matlabCodegenIsDeleted = false;
+  OutputCalibration_DW.obj_p.isInitialized = 1;
+  OutputCalibration_DW.obj_p.MW_PWM_HANDLE = MW_PWM_Open(PC_7, 10000.0, 57.6);
+  MW_PWM_Start(OutputCalibration_DW.obj_p.MW_PWM_HANDLE);
+  OutputCalibration_DW.obj_p.isSetupComplete = true;
 }
 
 /* Model terminate function */
@@ -140,6 +152,18 @@ void OutputCalibration_terminate(void)
   }
 
   /* End of Terminate for MATLABSystem: '<Root>/PWM Output' */
+
+  /* Terminate for MATLABSystem: '<Root>/PWM Output1' */
+  if (!OutputCalibration_DW.obj_p.matlabCodegenIsDeleted) {
+    OutputCalibration_DW.obj_p.matlabCodegenIsDeleted = true;
+    if ((OutputCalibration_DW.obj_p.isInitialized == 1) &&
+        OutputCalibration_DW.obj_p.isSetupComplete) {
+      MW_PWM_Stop(OutputCalibration_DW.obj_p.MW_PWM_HANDLE);
+      MW_PWM_Close(OutputCalibration_DW.obj_p.MW_PWM_HANDLE);
+    }
+  }
+
+  /* End of Terminate for MATLABSystem: '<Root>/PWM Output1' */
 }
 
 /*

@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'OutputCalibration'.
  *
- * Model version                  : 1.15
+ * Model version                  : 1.21
  * Simulink Coder version         : 24.2 (R2024b) 21-Jun-2024
- * C/C++ source code generated on : Fri Oct 11 18:28:37 2024
+ * C/C++ source code generated on : Wed Oct 16 11:57:03 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex-M
@@ -82,10 +82,14 @@ typedef struct {
 /* Block states (default storage) for system '<Root>' */
 typedef struct {
   mbed_DigitalRead_OutputCalibr_T obj; /* '<Root>/Digital Read' */
+  mbed_PWMOutput_OutputCalibrat_T obj_p;/* '<Root>/PWM Output1' */
   mbed_PWMOutput_OutputCalibrat_T obj_o;/* '<Root>/PWM Output' */
   real_T m;                            /* '<Root>/MATLAB Function' */
   real_T db;                           /* '<Root>/MATLAB Function' */
   real_T i;                            /* '<Root>/MATLAB Function' */
+  struct {
+    void *LoggedData;
+  } Scope_PWORK;                       /* '<Root>/Scope' */
 } DW_OutputCalibration_T;
 
 /* Real-time Model Data Structure */

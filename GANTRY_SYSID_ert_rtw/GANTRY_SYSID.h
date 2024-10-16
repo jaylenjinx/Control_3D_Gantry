@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'GANTRY_SYSID'.
  *
- * Model version                  : 1.27
+ * Model version                  : 1.40
  * Simulink Coder version         : 24.2 (R2024b) 21-Jun-2024
- * C/C++ source code generated on : Fri Oct 11 19:03:23 2024
+ * C/C++ source code generated on : Wed Oct 16 12:58:46 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex-M
@@ -74,41 +74,31 @@
 #define rtmGetTPtr(rtm)                (&(rtm)->Timing.taskTime0)
 #endif
 
-/* Block states (default storage) for system '<Root>/BiPolar Calibration' */
-typedef struct {
-  int32_T sfEvent;                     /* '<Root>/BiPolar Calibration' */
-  boolean_T doneDoubleBufferReInit;    /* '<Root>/BiPolar Calibration' */
-} DW_BiPolarCalibration_GANTRY__T;
-
 /* Block signals (default storage) */
 typedef struct {
-  real_T t;                            /* '<Root>/MATLAB Function' */
-  real_T h;                            /* '<Root>/MATLAB Function' */
-  real_T hoist_current;                /* '<Root>/Analog Input5' */
-  real_T hoist_position;               /* '<Root>/Analog Input4' */
-  real_T load_angle;                   /* '<Root>/Analog Input3' */
-  real_T trolley_current;              /* '<Root>/Analog Input2' */
-  real_T trolley_speed;                /* '<Root>/Analog Input1' */
-  real_T trolley_position;             /* '<Root>/Analog Input' */
+  real_T y_h;                          /* '<Root>/MATLAB Function' */
+  real_T x;                            /* '<Root>/MATLAB Function' */
+  real_T yang;                         /* '<Root>/Analog Input4' */
+  real_T xang;                         /* '<Root>/Analog Input3' */
+  real_T zpos;                         /* '<Root>/Analog Input2' */
+  real_T ypos;                         /* '<Root>/Analog Input1' */
+  real_T xpos;                         /* '<Root>/Analog Input' */
   boolean_T btn;                       /* '<Root>/Digital Read' */
 } B_GANTRY_SYSID_T;
 
 /* Block states (default storage) for system '<Root>' */
 typedef struct {
-  mbed_AnalogInput_GANTRY_SYSID_T obj; /* '<Root>/Analog Input5' */
-  mbed_AnalogInput_GANTRY_SYSID_T obj_o;/* '<Root>/Analog Input4' */
+  mbed_AnalogInput_GANTRY_SYSID_T obj; /* '<Root>/Analog Input4' */
   mbed_AnalogInput_GANTRY_SYSID_T obj_b;/* '<Root>/Analog Input3' */
   mbed_AnalogInput_GANTRY_SYSID_T obj_j;/* '<Root>/Analog Input2' */
   mbed_AnalogInput_GANTRY_SYSID_T obj_h;/* '<Root>/Analog Input1' */
   mbed_AnalogInput_GANTRY_SYSID_T obj_h5;/* '<Root>/Analog Input' */
   mbed_DigitalRead_GANTRY_SYSID_T obj_h0;/* '<Root>/Digital Read' */
   mbed_PWMOutput_GANTRY_SYSID_T obj_m; /* '<Root>/PWM Output1' */
-  mbed_PWMOutput_GANTRY_SYSID_T obj_oh;/* '<Root>/PWM Output' */
+  mbed_PWMOutput_GANTRY_SYSID_T obj_o; /* '<Root>/PWM Output' */
   real_T i;                            /* '<Root>/MATLAB Function' */
   real_T m;                            /* '<Root>/MATLAB Function' */
   real_T button_pressed;               /* '<Root>/MATLAB Function' */
-  DW_BiPolarCalibration_GANTRY__T sf_BiPolarCalibration1;/* '<Root>/BiPolar Calibration1' */
-  DW_BiPolarCalibration_GANTRY__T sf_BiPolarCalibration;/* '<Root>/BiPolar Calibration' */
 } DW_GANTRY_SYSID_T;
 
 /* Real-time Model Data Structure */
@@ -180,9 +170,9 @@ extern volatile boolean_T runModel;
  * Here is the system hierarchy for this model
  *
  * '<Root>' : 'GANTRY_SYSID'
- * '<S1>'   : 'GANTRY_SYSID/BiPolar Calibration'
- * '<S2>'   : 'GANTRY_SYSID/BiPolar Calibration1'
- * '<S3>'   : 'GANTRY_SYSID/MATLAB Function'
+ * '<S1>'   : 'GANTRY_SYSID/MATLAB Function'
+ * '<S2>'   : 'GANTRY_SYSID/X-Axis BiPolar Calibration'
+ * '<S3>'   : 'GANTRY_SYSID/Y-Axis BiPolar Calibration'
  */
 #endif                                 /* GANTRY_SYSID_h_ */
 

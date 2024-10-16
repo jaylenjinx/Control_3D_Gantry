@@ -9076,7 +9076,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x11e BufferedSerial.o
  .debug_line    0x00000000     0x1227 BufferedSerial.o
- .debug_str     0x00000000     0x34c5 BufferedSerial.o
+ .debug_str     0x00000000     0x34c8 BufferedSerial.o
  .comment       0x00000000       0x45 BufferedSerial.o
  .debug_frame   0x00000000      0x460 BufferedSerial.o
  .ARM.attributes
@@ -9104,8 +9104,8 @@ Discarded input sections
                 0x00000000       0x38 MW_Timer.o
  .debug_rnglists
                 0x00000000       0x27 MW_Timer.o
- .debug_line    0x00000000      0x745 MW_Timer.o
- .debug_str     0x00000000      0xd3e MW_Timer.o
+ .debug_line    0x00000000      0x748 MW_Timer.o
+ .debug_str     0x00000000      0xd41 MW_Timer.o
  .comment       0x00000000       0x45 MW_Timer.o
  .debug_frame   0x00000000       0x80 MW_Timer.o
  .ARM.attributes
@@ -9122,7 +9122,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x19 mbed_syscalls.o
  .debug_line    0x00000000      0x13d mbed_syscalls.o
- .debug_str     0x00000000      0x24e mbed_syscalls.o
+ .debug_str     0x00000000      0x251 mbed_syscalls.o
  .comment       0x00000000       0x45 mbed_syscalls.o
  .debug_frame   0x00000000       0x3c mbed_syscalls.o
  .ARM.attributes
@@ -9993,7 +9993,7 @@ LOAD C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.i
                 0x00000100                        M_CRASH_DATA_RAM_SIZE = 0x100
                 0x00000400                        STACK_SIZE = 0x400
 
-.text           0x08000000     0xd714
+.text           0x08000000     0xd7a4
  *(.isr_vector)
  .isr_vector    0x08000000      0x1f8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STARTU~1.O
                 0x08000000                g_pfnVectors
@@ -10825,715 +10825,715 @@ LOAD C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.i
                 0x08004c24                extmodeSimulationComplete
  *fill*         0x08004c34        0x4 
  .text.OutputCalibration_step
-                0x08004c38      0x108 OutputCalibration.o
+                0x08004c38      0x118 OutputCalibration.o
                 0x08004c38                OutputCalibration_step
  .text.OutputCalibration_initialize
-                0x08004d40      0x108 OutputCalibration.o
-                0x08004d40                OutputCalibration_initialize
+                0x08004d50      0x148 OutputCalibration.o
+                0x08004d50                OutputCalibration_initialize
  .text.OutputCalibration_terminate
-                0x08004e48       0x64 OutputCalibration.o
-                0x08004e48                OutputCalibration_terminate
+                0x08004e98       0x9c OutputCalibration.o
+                0x08004e98                OutputCalibration_terminate
  .text.rt_OneStep
-                0x08004eac       0x74 ert_main.o
-                0x08004eac                rt_OneStep
- .text.main     0x08004f20      0x178 ert_main.o
-                0x08004f20                main
+                0x08004f34       0x74 ert_main.o
+                0x08004f34                rt_OneStep
+ .text.main     0x08004fa8      0x178 ert_main.o
+                0x08004fa8                main
  .text.xcpCopyTimeValue
-                0x08005098       0x1c xcp_ext_common.o
- *fill*         0x080050b4        0x4 
+                0x08005120       0x1c xcp_ext_common.o
+ *fill*         0x0800513c        0x4 
  .text.xcpExtModeUpdateTime
-                0x080050b8      0x110 xcp_ext_common.o
-                0x080050b8                xcpExtModeUpdateTime
+                0x08005140      0x110 xcp_ext_common.o
+                0x08005140                xcpExtModeUpdateTime
  .text.xcpExtModeInit
-                0x080051c8       0x8c xcp_ext_common.o
-                0x080051c8                xcpExtModeInit
+                0x08005250       0x8c xcp_ext_common.o
+                0x08005250                xcpExtModeInit
  .text.xcpExtModeRunBackground
-                0x08005254      0x138 xcp_ext_common.o
-                0x08005254                xcpExtModeRunBackground
+                0x080052dc      0x138 xcp_ext_common.o
+                0x080052dc                xcpExtModeRunBackground
  .text.xcpExtModeReset
-                0x0800538c      0x100 xcp_ext_common.o
-                0x0800538c                xcpExtModeReset
+                0x08005414      0x100 xcp_ext_common.o
+                0x08005414                xcpExtModeReset
  .text.sampleSignalTrigger
-                0x0800548c      0x1b8 xcp_ext_classic_trigger.o
+                0x08005514      0x1b8 xcp_ext_classic_trigger.o
  .text.updateTriggerStatus
-                0x08005644      0x298 xcp_ext_classic_trigger.o
+                0x080056cc      0x298 xcp_ext_classic_trigger.o
  .text.xcpExtModeClassicTriggerInit
-                0x080058dc       0x5c xcp_ext_classic_trigger.o
-                0x080058dc                xcpExtModeClassicTriggerInit
+                0x08005964       0x5c xcp_ext_classic_trigger.o
+                0x08005964                xcpExtModeClassicTriggerInit
  .text.xcpExtModeClassicTriggerEnabled
-                0x08005938      0x108 xcp_ext_classic_trigger.o
-                0x08005938                xcpExtModeClassicTriggerEnabled
+                0x080059c0      0x108 xcp_ext_classic_trigger.o
+                0x080059c0                xcpExtModeClassicTriggerEnabled
  .text.xcpExtModeClassicTriggerReset
-                0x08005a40       0xec xcp_ext_classic_trigger.o
-                0x08005a40                xcpExtModeClassicTriggerReset
+                0x08005ac8       0xec xcp_ext_classic_trigger.o
+                0x08005ac8                xcpExtModeClassicTriggerReset
  .text.xcpExtModeClassicTriggerForceEnableStatusUpdate
-                0x08005b2c       0x70 xcp_ext_classic_trigger.o
-                0x08005b2c                xcpExtModeClassicTriggerForceEnableStatusUpdate
+                0x08005bb4       0x70 xcp_ext_classic_trigger.o
+                0x08005bb4                xcpExtModeClassicTriggerForceEnableStatusUpdate
  .text.msgBufferRealloc
-                0x08005b9c       0x76 xcp.o
+                0x08005c24       0x76 xcp.o
  .text.discardInputPacketHandler
-                0x08005c12       0x26 xcp.o
+                0x08005c9a       0x26 xcp.o
  .text.unknownInputPacketHandler
-                0x08005c38       0x18 xcp.o
+                0x08005cc0       0x18 xcp.o
  .text.xcpGetPacketGroupID
-                0x08005c50       0x8e xcp.o
- *fill*         0x08005cde        0x2 
+                0x08005cd8       0x8e xcp.o
+ *fill*         0x08005d66        0x2 
  .text.xcpGetPacketHandlers
-                0x08005ce0      0x128 xcp.o
+                0x08005d68      0x128 xcp.o
  .text.xcpStatusSet
-                0x08005e08       0x1c xcp.o
-                0x08005e08                xcpStatusSet
+                0x08005e90       0x1c xcp.o
+                0x08005e90                xcpStatusSet
  .text.xcpSessionStatusGet
-                0x08005e24        0xc xcp.o
-                0x08005e24                xcpSessionStatusGet
+                0x08005eac        0xc xcp.o
+                0x08005eac                xcpSessionStatusGet
  .text.xcpSessionStatusSetMask
-                0x08005e30       0x24 xcp.o
-                0x08005e30                xcpSessionStatusSetMask
+                0x08005eb8       0x24 xcp.o
+                0x08005eb8                xcpSessionStatusSetMask
  .text.xcpSessionStatusClearMask
-                0x08005e54       0x2c xcp.o
-                0x08005e54                xcpSessionStatusClearMask
+                0x08005edc       0x2c xcp.o
+                0x08005edc                xcpSessionStatusClearMask
  .text.xcpResourceProtectionStatusGet
-                0x08005e80        0xc xcp.o
-                0x08005e80                xcpResourceProtectionStatusGet
+                0x08005f08        0xc xcp.o
+                0x08005f08                xcpResourceProtectionStatusGet
  .text.xcpSessionConfigurationIdGet
-                0x08005e8c        0xc xcp.o
-                0x08005e8c                xcpSessionConfigurationIdGet
+                0x08005f14        0xc xcp.o
+                0x08005f14                xcpSessionConfigurationIdGet
  .text.genericOutputPacketHandler
-                0x08005e98      0x10c xcp.o
-                0x08005e98                genericOutputPacketHandler
+                0x08005f20      0x10c xcp.o
+                0x08005f20                genericOutputPacketHandler
  .text.xcpFindPacket
-                0x08005fa4       0x68 xcp.o
-                0x08005fa4                xcpFindPacket
- .text.xcpInit  0x0800600c       0x58 xcp.o
-                0x0800600c                xcpInit
- .text.xcpRun   0x08006064      0x164 xcp.o
-                0x08006064                xcpRun
+                0x0800602c       0x68 xcp.o
+                0x0800602c                xcpFindPacket
+ .text.xcpInit  0x08006094       0x58 xcp.o
+                0x08006094                xcpInit
+ .text.xcpRun   0x080060ec      0x164 xcp.o
+                0x080060ec                xcpRun
  .text.xcpEvent
-                0x080061c8       0x4c xcp.o
-                0x080061c8                xcpEvent
+                0x08006250       0x4c xcp.o
+                0x08006250                xcpEvent
  .text.xcpGetStatus
-                0x08006214        0xc xcp.o
-                0x08006214                xcpGetStatus
+                0x0800629c        0xc xcp.o
+                0x0800629c                xcpGetStatus
  .text.xcpReset
-                0x08006220       0x2c xcp.o
-                0x08006220                xcpReset
+                0x080062a8       0x2c xcp.o
+                0x080062a8                xcpReset
  .text.xcpPackedModeEventsFlush
-                0x0800624c       0x1e xcp.o
-                0x0800624c                xcpPackedModeEventsFlush
+                0x080062d4       0x1e xcp.o
+                0x080062d4                xcpPackedModeEventsFlush
  .text.xcpPackedModeEventReset
-                0x0800626a       0x32 xcp.o
-                0x0800626a                xcpPackedModeEventReset
+                0x080062f2       0x32 xcp.o
+                0x080062f2                xcpPackedModeEventReset
  .text.isValidUploadSize
-                0x0800629c       0x32 xcp_standard.o
- *fill*         0x080062ce        0x2 
+                0x08006324       0x32 xcp_standard.o
+ *fill*         0x08006356        0x2 
  .text.xcpMemcpyFromMTA
-                0x080062d0       0x2c xcp_standard.o
+                0x08006358       0x2c xcp_standard.o
  .text.connectInputPacketHandler
-                0x080062fc       0x8c xcp_standard.o
+                0x08006384       0x8c xcp_standard.o
  .text.connectOutputPacketHandler
-                0x08006388       0x72 xcp_standard.o
+                0x08006410       0x72 xcp_standard.o
  .text.disconnectInputPacketHandler
-                0x080063fa       0x44 xcp_standard.o
+                0x08006482       0x44 xcp_standard.o
  .text.getStatusInputPacketHandler
-                0x0800643e       0x16 xcp_standard.o
+                0x080064c6       0x16 xcp_standard.o
  .text.getStatusOutputPacketHandler
-                0x08006454       0x4e xcp_standard.o
+                0x080064dc       0x4e xcp_standard.o
  .text.synchInputPacketHandler
-                0x080064a2       0x3c xcp_standard.o
+                0x0800652a       0x3c xcp_standard.o
  .text.setMTAInputPacketHandler
-                0x080064de       0x5e xcp_standard.o
+                0x08006566       0x5e xcp_standard.o
  .text.uploadInputPacketHandler
-                0x0800653c       0x80 xcp_standard.o
+                0x080065c4       0x80 xcp_standard.o
  .text.uploadOutputPacketHandler
-                0x080065bc       0x88 xcp_standard.o
+                0x08006644       0x88 xcp_standard.o
  .text.shortUploadInputPacketHandler
-                0x08006644       0x94 xcp_standard.o
+                0x080066cc       0x94 xcp_standard.o
  .text.shortUploadOutputPacketHandler
-                0x080066d8       0x88 xcp_standard.o
+                0x08006760       0x88 xcp_standard.o
  .text.getPacket
-                0x08006760       0x28 xcp_standard.o
+                0x080067e8       0x28 xcp_standard.o
  .text.xcpStandardInit
-                0x08006788       0x14 xcp_standard.o
-                0x08006788                xcpStandardInit
+                0x08006810       0x14 xcp_standard.o
+                0x08006810                xcpStandardInit
  .text.xcpStandardGetPacketLookup
-                0x0800679c        0xc xcp_standard.o
-                0x0800679c                xcpStandardGetPacketLookup
+                0x08006824        0xc xcp_standard.o
+                0x08006824                xcpStandardGetPacketLookup
  .text.xcpStandardSetPacketLookup
-                0x080067a8       0x14 xcp_standard.o
-                0x080067a8                xcpStandardSetPacketLookup
+                0x08006830       0x14 xcp_standard.o
+                0x08006830                xcpStandardSetPacketLookup
  .text.xcpStandardReset
-                0x080067bc       0x10 xcp_standard.o
-                0x080067bc                xcpStandardReset
+                0x08006844       0x10 xcp_standard.o
+                0x08006844                xcpStandardReset
  .text.xcpStandardGetAddressFromMta
-                0x080067cc        0xc xcp_standard.o
-                0x080067cc                xcpStandardGetAddressFromMta
+                0x08006854        0xc xcp_standard.o
+                0x08006854                xcpStandardGetAddressFromMta
  .text.xcpStandardSetMta
-                0x080067d8       0x38 xcp_standard.o
-                0x080067d8                xcpStandardSetMta
+                0x08006860       0x38 xcp_standard.o
+                0x08006860                xcpStandardSetMta
  .text.xcpStandardIncrementMta
-                0x08006810       0x20 xcp_standard.o
-                0x08006810                xcpStandardIncrementMta
+                0x08006898       0x20 xcp_standard.o
+                0x08006898                xcpStandardIncrementMta
  .text.xcpStandardExtendedInit
-                0x08006830        0x4 xcp_standard.o
-                0x08006830                xcpStandardExtendedInit
+                0x080068b8        0x4 xcp_standard.o
+                0x080068b8                xcpStandardExtendedInit
  .text.xcpStandardExtendedReset
-                0x08006834        0x4 xcp_standard.o
-                0x08006834                xcpStandardExtendedReset
+                0x080068bc        0x4 xcp_standard.o
+                0x080068bc                xcpStandardExtendedReset
  .text.xcpDaqWriteLock
-                0x08006838       0x54 xcp_daq.o
+                0x080068c0       0x54 xcp_daq.o
  .text.xcpDaqWriteUnlock
-                0x0800688c       0x20 xcp_daq.o
+                0x08006914       0x20 xcp_daq.o
  .text.xcpDaqReadLock
-                0x080068ac       0x38 xcp_daq.o
+                0x08006934       0x38 xcp_daq.o
  .text.xcpDaqReadUnlock
-                0x080068e4       0x38 xcp_daq.o
+                0x0800696c       0x38 xcp_daq.o
  .text.isActiveDaqList
-                0x0800691c       0x4c xcp_daq.o
+                0x080069a4       0x4c xcp_daq.o
  .text.noActiveDaqLists
-                0x08006968       0x60 xcp_daq.o
+                0x080069f0       0x60 xcp_daq.o
  .text.isValidDaqPtr
-                0x080069c8       0xc8 xcp_daq.o
+                0x08006a50       0xc8 xcp_daq.o
  .text.isValidDaqEntry
-                0x08006a90       0x3e xcp_daq.o
+                0x08006b18       0x3e xcp_daq.o
  .text.isSupportedDaqListMode
-                0x08006ace       0x20 xcp_daq.o
+                0x08006b56       0x20 xcp_daq.o
  .text.isValidStartStopMode
-                0x08006aee       0x36 xcp_daq.o
+                0x08006b76       0x36 xcp_daq.o
  .text.isValidStartStopSynchMode
-                0x08006b24       0x36 xcp_daq.o
+                0x08006bac       0x36 xcp_daq.o
  .text.absoluteOdtNumberIdentification
-                0x08006b5a        0x6 xcp_daq.o
+                0x08006be2        0x6 xcp_daq.o
  .text.isDaqPackedModeEnabled
-                0x08006b60       0x74 xcp_daq.o
+                0x08006be8       0x74 xcp_daq.o
  .text.odtPacketSize
-                0x08006bd4       0x50 xcp_daq.o
+                0x08006c5c       0x50 xcp_daq.o
  .text.createDaqReservedPool
-                0x08006c24       0x96 xcp_daq.o
+                0x08006cac       0x96 xcp_daq.o
  .text.destroyDaqReservedPool
-                0x08006cba       0x2a xcp_daq.o
+                0x08006d42       0x2a xcp_daq.o
  .text.setDaqPtrInputPacketHandler
-                0x08006ce4       0xc8 xcp_daq.o
+                0x08006d6c       0xc8 xcp_daq.o
  .text.writeDaqInputPacketHandler
-                0x08006dac      0x138 xcp_daq.o
+                0x08006e34      0x138 xcp_daq.o
  .text.setDaqListModeInputPacketHandler
-                0x08006ee4      0x15c xcp_daq.o
+                0x08006f6c      0x15c xcp_daq.o
  .text.startStopDaqListInputPacketHandler
-                0x08007040      0x380 xcp_daq.o
+                0x080070c8      0x380 xcp_daq.o
  .text.startStopDaqListOutputPacketHandler
-                0x080073c0       0x5c xcp_daq.o
+                0x08007448       0x5c xcp_daq.o
  .text.startStopSynchInputPacketHandler
-                0x0800741c      0x2e8 xcp_daq.o
+                0x080074a4      0x2e8 xcp_daq.o
  .text.getDaqProcessorInfoInputPacketHandler
-                0x08007704       0x16 xcp_daq.o
+                0x0800778c       0x16 xcp_daq.o
  .text.getDaqProcessorInfoOutputPacketHandler
-                0x0800771a       0x58 xcp_daq.o
+                0x080077a2       0x58 xcp_daq.o
  .text.getDaqResolutionInfoInputPacketHandler
-                0x08007772       0x16 xcp_daq.o
+                0x080077fa       0x16 xcp_daq.o
  .text.getDaqResolutionInfoOutputPacketHandler
-                0x08007788       0x56 xcp_daq.o
+                0x08007810       0x56 xcp_daq.o
  .text.freeDaqInputPacketHandler
-                0x080077de       0x4c xcp_daq.o
- *fill*         0x0800782a        0x2 
+                0x08007866       0x4c xcp_daq.o
+ *fill*         0x080078b2        0x2 
  .text.allocDaqInputPacketHandler
-                0x0800782c      0x15c xcp_daq.o
+                0x080078b4      0x15c xcp_daq.o
  .text.allocOdtInputPacketHandler
-                0x08007988      0x18c xcp_daq.o
+                0x08007a10      0x18c xcp_daq.o
  .text.allocOdtEntryInputPacketHandler
-                0x08007b14      0x240 xcp_daq.o
+                0x08007b9c      0x240 xcp_daq.o
  .text.getDaqClockInputPacketHandler
-                0x08007d54       0x18 xcp_daq.o
+                0x08007ddc       0x18 xcp_daq.o
  .text.setDaqPackedModeInputPacketHandler
-                0x08007d6c      0x1f8 xcp_daq.o
+                0x08007df4      0x1f8 xcp_daq.o
  .text.level1CommandInputPacketHandler
-                0x08007f64       0x5a xcp_daq.o
- *fill*         0x08007fbe        0x2 
+                0x08007fec       0x5a xcp_daq.o
+ *fill*         0x08008046        0x2 
  .text.getPacket
-                0x08007fc0       0x28 xcp_daq.o
+                0x08008048       0x28 xcp_daq.o
  .text.xcpDaqInit
-                0x08007fe8       0x38 xcp_daq.o
-                0x08007fe8                xcpDaqInit
+                0x08008070       0x38 xcp_daq.o
+                0x08008070                xcpDaqInit
  .text.xcpDaqGetPacketLookup
-                0x08008020        0xc xcp_daq.o
-                0x08008020                xcpDaqGetPacketLookup
+                0x080080a8        0xc xcp_daq.o
+                0x080080a8                xcpDaqGetPacketLookup
  .text.xcpDaqSetPacketLookup
-                0x0800802c       0x14 xcp_daq.o
-                0x0800802c                xcpDaqSetPacketLookup
+                0x080080b4       0x14 xcp_daq.o
+                0x080080b4                xcpDaqSetPacketLookup
  .text.xcpResetDaq
-                0x08008040       0xa0 xcp_daq.o
+                0x080080c8       0xa0 xcp_daq.o
  .text.daqWriteXCPDataForOdt
-                0x080080e0       0x7a xcp_daq.o
+                0x08008168       0x7a xcp_daq.o
  .text.odtWriteEntries
-                0x0800815a       0xa6 xcp_daq.o
+                0x080081e2       0xa6 xcp_daq.o
  .text.xcpProcessDaq
-                0x08008200      0x208 xcp_daq.o
+                0x08008288      0x208 xcp_daq.o
  .text.xcpDaqEvent
-                0x08008408      0x134 xcp_daq.o
-                0x08008408                xcpDaqEvent
+                0x08008490      0x134 xcp_daq.o
+                0x08008490                xcpDaqEvent
  .text.xcpDaqEventsFlush
-                0x0800853c      0x2d0 xcp_daq.o
-                0x0800853c                xcpDaqEventsFlush
+                0x080085c4      0x2d0 xcp_daq.o
+                0x080085c4                xcpDaqEventsFlush
  .text.xcpDaqLock
-                0x0800880c       0x22 xcp_daq.o
-                0x0800880c                xcpDaqLock
+                0x08008894       0x22 xcp_daq.o
+                0x08008894                xcpDaqLock
  .text.xcpDaqUnlock
-                0x0800882e        0xc xcp_daq.o
-                0x0800882e                xcpDaqUnlock
- *fill*         0x0800883a        0x2 
+                0x080088b6        0xc xcp_daq.o
+                0x080088b6                xcpDaqUnlock
+ *fill*         0x080088c2        0x2 
  .text.xcpResetDaqListStatus
-                0x0800883c      0x1a4 xcp_daq.o
-                0x0800883c                xcpResetDaqListStatus
+                0x080088c4      0x1a4 xcp_daq.o
+                0x080088c4                xcpResetDaqListStatus
  .text.xcpDaqReset
-                0x080089e0       0x20 xcp_daq.o
-                0x080089e0                xcpDaqReset
+                0x08008a68       0x20 xcp_daq.o
+                0x08008a68                xcpDaqReset
  .text.xcpDaqExtendedInit
-                0x08008a00        0x4 xcp_daq.o
-                0x08008a00                xcpDaqExtendedInit
+                0x08008a88        0x4 xcp_daq.o
+                0x08008a88                xcpDaqExtendedInit
  .text.xcpDaqExtendedReset
-                0x08008a04        0x4 xcp_daq.o
-                0x08008a04                xcpDaqExtendedReset
+                0x08008a8c        0x4 xcp_daq.o
+                0x08008a8c                xcpDaqExtendedReset
  .text.isValidShortDownloadSize
-                0x08008a08       0x36 xcp_calibration.o
+                0x08008a90       0x36 xcp_calibration.o
  .text.isValidDownloadSize
-                0x08008a3e       0x3e xcp_calibration.o
+                0x08008ac6       0x3e xcp_calibration.o
  .text.xcpMemcpyToMTA
-                0x08008a7c       0x28 xcp_calibration.o
+                0x08008b04       0x28 xcp_calibration.o
  .text.downloadInputPacketHandler
-                0x08008aa4       0x90 xcp_calibration.o
+                0x08008b2c       0x90 xcp_calibration.o
  .text.shortDownloadInputPacketHandler
-                0x08008b34       0x9e xcp_calibration.o
- *fill*         0x08008bd2        0x2 
+                0x08008bbc       0x9e xcp_calibration.o
+ *fill*         0x08008c5a        0x2 
  .text.getPacket
-                0x08008bd4       0x28 xcp_calibration.o
+                0x08008c5c       0x28 xcp_calibration.o
  .text.xcpCalibrationInit
-                0x08008bfc       0x10 xcp_calibration.o
-                0x08008bfc                xcpCalibrationInit
+                0x08008c84       0x10 xcp_calibration.o
+                0x08008c84                xcpCalibrationInit
  .text.xcpCalibrationGetPacketLookup
-                0x08008c0c        0xc xcp_calibration.o
-                0x08008c0c                xcpCalibrationGetPacketLookup
+                0x08008c94        0xc xcp_calibration.o
+                0x08008c94                xcpCalibrationGetPacketLookup
  .text.xcpCalibrationSetPacketLookup
-                0x08008c18       0x14 xcp_calibration.o
-                0x08008c18                xcpCalibrationSetPacketLookup
+                0x08008ca0       0x14 xcp_calibration.o
+                0x08008ca0                xcpCalibrationSetPacketLookup
  .text.xcpCalibrationReset
-                0x08008c2c        0x4 xcp_calibration.o
-                0x08008c2c                xcpCalibrationReset
+                0x08008cb4        0x4 xcp_calibration.o
+                0x08008cb4                xcpCalibrationReset
  .text.xcpFifoInit
-                0x08008c30       0x16 xcp_fifo.o
-                0x08008c30                xcpFifoInit
+                0x08008cb8       0x16 xcp_fifo.o
+                0x08008cb8                xcpFifoInit
  .text.xcpFifoEnqueue
-                0x08008c46       0x20 xcp_fifo.o
-                0x08008c46                xcpFifoEnqueue
+                0x08008cce       0x20 xcp_fifo.o
+                0x08008cce                xcpFifoEnqueue
  .text.xcpFifoDequeue
-                0x08008c66       0x34 xcp_fifo.o
-                0x08008c66                xcpFifoDequeue
+                0x08008cee       0x34 xcp_fifo.o
+                0x08008cee                xcpFifoDequeue
  .text.xcpFifoEnqueueHead
-                0x08008c9a       0x28 xcp_fifo.o
-                0x08008c9a                xcpFifoEnqueueHead
+                0x08008d22       0x28 xcp_fifo.o
+                0x08008d22                xcpFifoEnqueueHead
  .text.xcpFifoReset
-                0x08008cc2       0x14 xcp_fifo.o
-                0x08008cc2                xcpFifoReset
- *fill*         0x08008cd6        0x2 
+                0x08008d4a       0x14 xcp_fifo.o
+                0x08008d4a                xcpFifoReset
+ *fill*         0x08008d5e        0x2 
  .text.xcpTransportEmptyTxFifo
-                0x08008cd8       0x74 xcp_transport.o
+                0x08008d60       0x74 xcp_transport.o
  .text.xcpTransportEmptyRxFifo
-                0x08008d4c       0x68 xcp_transport.o
+                0x08008dd4       0x68 xcp_transport.o
  .text.xcpTransportInit
-                0x08008db4      0x118 xcp_transport.o
-                0x08008db4                xcpTransportInit
+                0x08008e3c      0x118 xcp_transport.o
+                0x08008e3c                xcpTransportInit
  .text.xcpTransportTxReady
-                0x08008ecc       0x12 xcp_transport.o
-                0x08008ecc                xcpTransportTxReady
+                0x08008f54       0x12 xcp_transport.o
+                0x08008f54                xcpTransportTxReady
  .text.xcpTransportTxTrigger
-                0x08008ede       0x12 xcp_transport.o
-                0x08008ede                xcpTransportTxTrigger
+                0x08008f66       0x12 xcp_transport.o
+                0x08008f66                xcpTransportTxTrigger
  .text.xcpTransportTxPacketSet
-                0x08008ef0       0xfc xcp_transport.o
-                0x08008ef0                xcpTransportTxPacketSet
+                0x08008f78       0xfc xcp_transport.o
+                0x08008f78                xcpTransportTxPacketSet
  .text.xcpTransportTx
-                0x08008fec       0xe8 xcp_transport.o
-                0x08008fec                xcpTransportTx
+                0x08009074       0xe8 xcp_transport.o
+                0x08009074                xcpTransportTx
  .text.xcpTransportRx
-                0x080090d4       0x78 xcp_transport.o
-                0x080090d4                xcpTransportRx
+                0x0800915c       0x78 xcp_transport.o
+                0x0800915c                xcpTransportRx
  .text.xcpTransportRxPacketGet
-                0x0800914c       0xf0 xcp_transport.o
-                0x0800914c                xcpTransportRxPacketGet
+                0x080091d4       0xf0 xcp_transport.o
+                0x080091d4                xcpTransportRxPacketGet
  .text.xcpTransportPacketOffset
-                0x0800923c       0x1e xcp_transport.o
-                0x0800923c                xcpTransportPacketOffset
+                0x080092c4       0x1e xcp_transport.o
+                0x080092c4                xcpTransportPacketOffset
  .text.xcpTransportMsgBufferSize
-                0x0800925a       0x66 xcp_transport.o
-                0x0800925a                xcpTransportMsgBufferSize
+                0x080092e2       0x66 xcp_transport.o
+                0x080092e2                xcpTransportMsgBufferSize
  .text.xcpTransportMaxDtoSize
-                0x080092c0        0xc xcp_transport.o
-                0x080092c0                xcpTransportMaxDtoSize
+                0x08009348        0xc xcp_transport.o
+                0x08009348                xcpTransportMaxDtoSize
  .text.xcpTransportMaxCtoSize
-                0x080092cc        0xc xcp_transport.o
-                0x080092cc                xcpTransportMaxCtoSize
+                0x08009354        0xc xcp_transport.o
+                0x08009354                xcpTransportMaxCtoSize
  .text.xcpTransportRestart
-                0x080092d8       0x36 xcp_transport.o
-                0x080092d8                xcpTransportRestart
+                0x08009360       0x36 xcp_transport.o
+                0x08009360                xcpTransportRestart
  .text.xcpTransportResynch
-                0x0800930e       0x32 xcp_transport.o
-                0x0800930e                xcpTransportResynch
+                0x08009396       0x32 xcp_transport.o
+                0x08009396                xcpTransportResynch
  .text.xcpTransportCtoReservedMemPoolId
-                0x08009340        0xc xcp_transport.o
-                0x08009340                xcpTransportCtoReservedMemPoolId
+                0x080093c8        0xc xcp_transport.o
+                0x080093c8                xcpTransportCtoReservedMemPoolId
  .text.xcpTransportReset
-                0x0800934c       0xc0 xcp_transport.o
-                0x0800934c                xcpTransportReset
+                0x080093d4       0xc0 xcp_transport.o
+                0x080093d4                xcpTransportReset
  .text.xcpInitializePoolMemoryArea
-                0x0800940c       0x70 xcp_mem_default.o
+                0x08009494       0x70 xcp_mem_default.o
  .text.xcpMemInit
-                0x0800947c      0x20c xcp_mem_default.o
-                0x0800947c                xcpMemInit
+                0x08009504      0x20c xcp_mem_default.o
+                0x08009504                xcpMemInit
  .text.xcpMemAlloc
-                0x08009688       0xf8 xcp_mem_default.o
-                0x08009688                xcpMemAlloc
+                0x08009710       0xf8 xcp_mem_default.o
+                0x08009710                xcpMemAlloc
  .text.xcpMemFree
-                0x08009780      0x188 xcp_mem_default.o
-                0x08009780                xcpMemFree
+                0x08009808      0x188 xcp_mem_default.o
+                0x08009808                xcpMemFree
  .text.xcpMemReservedPoolCreate
-                0x08009908      0x21c xcp_mem_default.o
-                0x08009908                xcpMemReservedPoolCreate
+                0x08009990      0x21c xcp_mem_default.o
+                0x08009990                xcpMemReservedPoolCreate
  .text.xcpMemReservedPoolDestroy
-                0x08009b24      0x16c xcp_mem_default.o
-                0x08009b24                xcpMemReservedPoolDestroy
+                0x08009bac      0x16c xcp_mem_default.o
+                0x08009bac                xcpMemReservedPoolDestroy
  .text.xcpMemCustomPoolCreate
-                0x08009c90       0xc8 xcp_mem_default.o
-                0x08009c90                xcpMemCustomPoolCreate
+                0x08009d18       0xc8 xcp_mem_default.o
+                0x08009d18                xcpMemCustomPoolCreate
  .text.xcpMemCustomPoolDestroy
-                0x08009d58       0x58 xcp_mem_default.o
-                0x08009d58                xcpMemCustomPoolDestroy
+                0x08009de0       0x58 xcp_mem_default.o
+                0x08009de0                xcpMemCustomPoolDestroy
  .text.xcpMemAllocFromPool
-                0x08009db0      0x16c xcp_mem_default.o
-                0x08009db0                xcpMemAllocFromPool
+                0x08009e38      0x16c xcp_mem_default.o
+                0x08009e38                xcpMemAllocFromPool
  .text.xcpMemReset
-                0x08009f1c       0x50 xcp_mem_default.o
-                0x08009f1c                xcpMemReset
+                0x08009fa4       0x50 xcp_mem_default.o
+                0x08009fa4                xcpMemReset
  .text.xcpDrvOpen
-                0x08009f6c       0x54 xcp_drv_rtiostream.o
-                0x08009f6c                xcpDrvOpen
+                0x08009ff4       0x54 xcp_drv_rtiostream.o
+                0x08009ff4                xcpDrvOpen
  .text.xcpDrvIoctl
-                0x08009fc0       0x48 xcp_drv_rtiostream.o
-                0x08009fc0                xcpDrvIoctl
+                0x0800a048       0x48 xcp_drv_rtiostream.o
+                0x0800a048                xcpDrvIoctl
  .text.xcpDrvSend
-                0x0800a008      0x134 xcp_drv_rtiostream.o
-                0x0800a008                xcpDrvSend
+                0x0800a090      0x134 xcp_drv_rtiostream.o
+                0x0800a090                xcpDrvSend
  .text.xcpDrvRecv
-                0x0800a13c      0x134 xcp_drv_rtiostream.o
-                0x0800a13c                xcpDrvRecv
+                0x0800a1c4      0x134 xcp_drv_rtiostream.o
+                0x0800a1c4                xcpDrvRecv
  .text.xcpDrvClose
-                0x0800a270       0x54 xcp_drv_rtiostream.o
-                0x0800a270                xcpDrvClose
+                0x0800a2f8       0x54 xcp_drv_rtiostream.o
+                0x0800a2f8                xcpDrvClose
  .text.xcpSortArray
-                0x0800a2c4       0xca xcp_utils.o
-                0x0800a2c4                xcpSortArray
+                0x0800a34c       0xca xcp_utils.o
+                0x0800a34c                xcpSortArray
  .text.xcpSxiHtons
-                0x0800a38e       0x12 xcp_frame_serial.o
+                0x0800a416       0x12 xcp_frame_serial.o
  .text.xcpSxiNtohs
-                0x0800a3a0       0x1e xcp_frame_serial.o
+                0x0800a428       0x1e xcp_frame_serial.o
  .text.xcpSxiChecksum
-                0x0800a3be       0x42 xcp_frame_serial.o
-                0x0800a3be                xcpSxiChecksum
+                0x0800a446       0x42 xcp_frame_serial.o
+                0x0800a446                xcpSxiChecksum
  .text.xcpFrameInit
-                0x0800a400       0x68 xcp_frame_serial.o
-                0x0800a400                xcpFrameInit
+                0x0800a488       0x68 xcp_frame_serial.o
+                0x0800a488                xcpFrameInit
  .text.xcpFrameMsgSend
-                0x0800a468      0x170 xcp_frame_serial.o
-                0x0800a468                xcpFrameMsgSend
+                0x0800a4f0      0x170 xcp_frame_serial.o
+                0x0800a4f0                xcpFrameMsgSend
  .text.xcpFrameMsgRecv
-                0x0800a5d8      0x160 xcp_frame_serial.o
-                0x0800a5d8                xcpFrameMsgRecv
+                0x0800a660      0x160 xcp_frame_serial.o
+                0x0800a660                xcpFrameMsgRecv
  .text.xcpFrameCreateMsg
-                0x0800a738       0x68 xcp_frame_serial.o
-                0x0800a738                xcpFrameCreateMsg
+                0x0800a7c0       0x68 xcp_frame_serial.o
+                0x0800a7c0                xcpFrameCreateMsg
  .text.xcpFrameExtractPacket
-                0x0800a7a0      0x13c xcp_frame_serial.o
-                0x0800a7a0                xcpFrameExtractPacket
+                0x0800a828      0x13c xcp_frame_serial.o
+                0x0800a828                xcpFrameExtractPacket
  .text.xcpFrameHeaderSize
-                0x0800a8dc        0x6 xcp_frame_serial.o
-                0x0800a8dc                xcpFrameHeaderSize
+                0x0800a964        0x6 xcp_frame_serial.o
+                0x0800a964                xcpFrameHeaderSize
  .text.xcpFrameTailSize
-                0x0800a8e2        0x6 xcp_frame_serial.o
-                0x0800a8e2                xcpFrameTailSize
+                0x0800a96a        0x6 xcp_frame_serial.o
+                0x0800a96a                xcpFrameTailSize
  .text.xcpFrameMaxDtoSize
-                0x0800a8e8        0x8 xcp_frame_serial.o
-                0x0800a8e8                xcpFrameMaxDtoSize
+                0x0800a970        0x8 xcp_frame_serial.o
+                0x0800a970                xcpFrameMaxDtoSize
  .text.xcpFrameMaxCtoSize
-                0x0800a8f0        0x6 xcp_frame_serial.o
-                0x0800a8f0                xcpFrameMaxCtoSize
- *fill*         0x0800a8f6        0x2 
+                0x0800a978        0x6 xcp_frame_serial.o
+                0x0800a978                xcpFrameMaxCtoSize
+ *fill*         0x0800a97e        0x2 
  .text.xcpFrameRestart
-                0x0800a8f8       0x24 xcp_frame_serial.o
-                0x0800a8f8                xcpFrameRestart
+                0x0800a980       0x24 xcp_frame_serial.o
+                0x0800a980                xcpFrameRestart
  .text.xcpFrameSetCtoReservedMemPoolId
-                0x0800a91c       0x14 xcp_frame_serial.o
-                0x0800a91c                xcpFrameSetCtoReservedMemPoolId
+                0x0800a9a4       0x14 xcp_frame_serial.o
+                0x0800a9a4                xcpFrameSetCtoReservedMemPoolId
  .text.xcpFrameReset
-                0x0800a930       0x5c xcp_frame_serial.o
-                0x0800a930                xcpFrameReset
+                0x0800a9b8       0x5c xcp_frame_serial.o
+                0x0800a9b8                xcpFrameReset
  .text.xcpTransportGetInitParameters
-                0x0800a98c       0x24 xcp_ext_param_default_serial.o
-                0x0800a98c                xcpTransportGetInitParameters
+                0x0800aa14       0x24 xcp_ext_param_default_serial.o
+                0x0800aa14                xcpTransportGetInitParameters
  .text.xcpGetInitParameters
-                0x0800a9b0       0x24 xcp_ext_param_default_serial.o
-                0x0800a9b0                xcpGetInitParameters
+                0x0800aa38       0x24 xcp_ext_param_default_serial.o
+                0x0800aa38                xcpGetInitParameters
  .text.__NVIC_SetPriority
-                0x0800a9d4       0x50 stm32f7xx_init_board.o
+                0x0800aa5c       0x50 stm32f7xx_init_board.o
  .text.HAL_Delay
-                0x0800aa24       0x2c stm32f7xx_init_board.o
-                0x0800aa24                HAL_Delay
+                0x0800aaac       0x2c stm32f7xx_init_board.o
+                0x0800aaac                HAL_Delay
  .text.stm32f7xx_init_board
-                0x0800aa50       0x10 stm32f7xx_init_board.o
-                0x0800aa50                stm32f7xx_init_board
+                0x0800aad8       0x10 stm32f7xx_init_board.o
+                0x0800aad8                stm32f7xx_init_board
  .text.__NVIC_SetPriority
-                0x0800aa60       0x50 SysTickScheduler.o
+                0x0800aae8       0x50 SysTickScheduler.o
  .text.SysTick_Config
-                0x0800aab0       0x40 SysTickScheduler.o
+                0x0800ab38       0x40 SysTickScheduler.o
  .text.SysTick_Isr
-                0x0800aaf0       0x48 SysTickScheduler.o
+                0x0800ab78       0x48 SysTickScheduler.o
  .text.SysTick_Handler
-                0x0800ab38       0x14 SysTickScheduler.o
-                0x0800ab38                SysTick_Handler
+                0x0800abc0       0x14 SysTickScheduler.o
+                0x0800abc0                SysTick_Handler
  .text.ARMCM_SysTick_Config
-                0x0800ab4c       0xac SysTickScheduler.o
-                0x0800ab4c                ARMCM_SysTick_Config
+                0x0800abd4       0xac SysTickScheduler.o
+                0x0800abd4                ARMCM_SysTick_Config
  .text.PendSV_Handler
-                0x0800abf8       0x44 m3m4m4f_multitasking.o
-                0x0800abf8                PendSV_Handler
+                0x0800ac80       0x44 m3m4m4f_multitasking.o
+                0x0800ac80                PendSV_Handler
  .text.SVC_Handler
-                0x0800ac3c       0x58 m3m4m4f_multitasking.o
-                0x0800ac3c                SVC_Handler
+                0x0800acc4       0x58 m3m4m4f_multitasking.o
+                0x0800acc4                SVC_Handler
  .text.sys_arch_protect
-                0x0800ac94       0x18 sys_arch.o
-                0x0800ac94                sys_arch_protect
+                0x0800ad1c       0x18 sys_arch.o
+                0x0800ad1c                sys_arch_protect
  .text.sys_arch_unprotect
-                0x0800acac       0x16 sys_arch.o
-                0x0800acac                sys_arch_unprotect
+                0x0800ad34       0x16 sys_arch.o
+                0x0800ad34                sys_arch_unprotect
  .text._ZN6SerialC2Ev
-                0x0800acc2       0x3c rtiostream_serial_dma.o
-                0x0800acc2                Serial::Serial()
-                0x0800acc2                Serial::Serial()
+                0x0800ad4a       0x3c rtiostream_serial_dma.o
+                0x0800ad4a                Serial::Serial()
+                0x0800ad4a                Serial::Serial()
  .text._ZN6SerialD2Ev
-                0x0800acfe       0x22 rtiostream_serial_dma.o
-                0x0800acfe                Serial::~Serial()
-                0x0800acfe                Serial::~Serial()
+                0x0800ad86       0x22 rtiostream_serial_dma.o
+                0x0800ad86                Serial::~Serial()
+                0x0800ad86                Serial::~Serial()
  .text._ZN6Serial5startEv
-                0x0800ad20       0x32 rtiostream_serial_dma.o
-                0x0800ad20                Serial::start()
+                0x0800ada8       0x32 rtiostream_serial_dma.o
+                0x0800ada8                Serial::start()
  .text._ZN6Serial4stopEv
-                0x0800ad52       0x2a rtiostream_serial_dma.o
-                0x0800ad52                Serial::stop()
+                0x0800adda       0x2a rtiostream_serial_dma.o
+                0x0800adda                Serial::stop()
  .text._ZN6Serial4sendEPKvj
-                0x0800ad7c       0x7c rtiostream_serial_dma.o
-                0x0800ad7c                Serial::send(void const*, unsigned int)
+                0x0800ae04       0x7c rtiostream_serial_dma.o
+                0x0800ae04                Serial::send(void const*, unsigned int)
  .text._ZN6Serial7receiveEPvj
-                0x0800adf8       0x90 rtiostream_serial_dma.o
-                0x0800adf8                Serial::receive(void*, unsigned int)
+                0x0800ae80       0x90 rtiostream_serial_dma.o
+                0x0800ae80                Serial::receive(void*, unsigned int)
  .text._ZN6Serial14bytesAvailableEv
-                0x0800ae88       0x68 rtiostream_serial_dma.o
-                0x0800ae88                Serial::bytesAvailable()
+                0x0800af10       0x68 rtiostream_serial_dma.o
+                0x0800af10                Serial::bytesAvailable()
  .text._ZN6Serial10rxCompleteEv
-                0x0800aef0       0x1a rtiostream_serial_dma.o
-                0x0800aef0                Serial::rxComplete()
+                0x0800af78       0x1a rtiostream_serial_dma.o
+                0x0800af78                Serial::rxComplete()
  .text._ZN6Serial10txCompleteEv
-                0x0800af0a       0x26 rtiostream_serial_dma.o
-                0x0800af0a                Serial::txComplete()
+                0x0800af92       0x26 rtiostream_serial_dma.o
+                0x0800af92                Serial::txComplete()
  .text._ZN6Serial10Clock_InitEv
-                0x0800af30       0x32 rtiostream_serial_dma.o
-                0x0800af30                Serial::Clock_Init()
- *fill*         0x0800af62        0x2 
+                0x0800afb8       0x32 rtiostream_serial_dma.o
+                0x0800afb8                Serial::Clock_Init()
+ *fill*         0x0800afea        0x2 
  .text._ZN6Serial9GPIO_InitEv
-                0x0800af64      0x178 rtiostream_serial_dma.o
-                0x0800af64                Serial::GPIO_Init()
+                0x0800afec      0x178 rtiostream_serial_dma.o
+                0x0800afec                Serial::GPIO_Init()
  .text._ZN6Serial11GPIO_DeInitEv
-                0x0800b0dc       0xe4 rtiostream_serial_dma.o
-                0x0800b0dc                Serial::GPIO_DeInit()
+                0x0800b164       0xe4 rtiostream_serial_dma.o
+                0x0800b164                Serial::GPIO_DeInit()
  .text._ZN6Serial9UART_InitEv
-                0x0800b1c0       0xc4 rtiostream_serial_dma.o
-                0x0800b1c0                Serial::UART_Init()
+                0x0800b248       0xc4 rtiostream_serial_dma.o
+                0x0800b248                Serial::UART_Init()
  .text._ZN6Serial11UART_DeInitEv
-                0x0800b284       0x46 rtiostream_serial_dma.o
-                0x0800b284                Serial::UART_DeInit()
- *fill*         0x0800b2ca        0x2 
+                0x0800b30c       0x46 rtiostream_serial_dma.o
+                0x0800b30c                Serial::UART_DeInit()
+ *fill*         0x0800b352        0x2 
  .text._ZN6Serial8DMA_InitEv
-                0x0800b2cc      0x1e0 rtiostream_serial_dma.o
-                0x0800b2cc                Serial::DMA_Init()
+                0x0800b354      0x1e0 rtiostream_serial_dma.o
+                0x0800b354                Serial::DMA_Init()
  .text._ZN6Serial10DMA_DeInitEv
-                0x0800b4ac       0x76 rtiostream_serial_dma.o
-                0x0800b4ac                Serial::DMA_DeInit()
+                0x0800b534       0x76 rtiostream_serial_dma.o
+                0x0800b534                Serial::DMA_DeInit()
  .text._ZN6Serial13checkForErrorE17HAL_StatusTypeDef
-                0x0800b522       0x1c rtiostream_serial_dma.o
-                0x0800b522                Serial::checkForError(HAL_StatusTypeDef)
- *fill*         0x0800b53e        0x2 
+                0x0800b5aa       0x1c rtiostream_serial_dma.o
+                0x0800b5aa                Serial::checkForError(HAL_StatusTypeDef)
+ *fill*         0x0800b5c6        0x2 
  .text.DMA1_Stream1_IRQHandler
-                0x0800b540       0x10 rtiostream_serial_dma.o
-                0x0800b540                DMA1_Stream1_IRQHandler
+                0x0800b5c8       0x10 rtiostream_serial_dma.o
+                0x0800b5c8                DMA1_Stream1_IRQHandler
  .text.DMA1_Stream3_IRQHandler
-                0x0800b550       0x10 rtiostream_serial_dma.o
-                0x0800b550                DMA1_Stream3_IRQHandler
+                0x0800b5d8       0x10 rtiostream_serial_dma.o
+                0x0800b5d8                DMA1_Stream3_IRQHandler
  .text.rtIOStreamOpen
-                0x0800b560       0x1c rtiostream_serial_dma.o
-                0x0800b560                rtIOStreamOpen
+                0x0800b5e8       0x1c rtiostream_serial_dma.o
+                0x0800b5e8                rtIOStreamOpen
  .text.rtIOStreamSend
-                0x0800b57c       0x3c rtiostream_serial_dma.o
-                0x0800b57c                rtIOStreamSend
+                0x0800b604       0x3c rtiostream_serial_dma.o
+                0x0800b604                rtIOStreamSend
  .text.rtIOStreamRecv
-                0x0800b5b8       0x2c rtiostream_serial_dma.o
-                0x0800b5b8                rtIOStreamRecv
+                0x0800b640       0x2c rtiostream_serial_dma.o
+                0x0800b640                rtIOStreamRecv
  .text.rtIOStreamClose
-                0x0800b5e4       0x1c rtiostream_serial_dma.o
-                0x0800b5e4                rtIOStreamClose
+                0x0800b66c       0x1c rtiostream_serial_dma.o
+                0x0800b66c                rtIOStreamClose
  .text._Z41__static_initialization_and_destruction_0v
-                0x0800b600       0x24 rtiostream_serial_dma.o
+                0x0800b688       0x24 rtiostream_serial_dma.o
  .text._GLOBAL__sub_I_extModeLink
-                0x0800b624        0x8 rtiostream_serial_dma.o
+                0x0800b6ac        0x8 rtiostream_serial_dma.o
  .text._Z20MW_GetMbedPinDetailsjPjS_
-                0x0800b62c       0x68 mw_mbed_pintable_interface.o
-                0x0800b62c                MW_GetMbedPinDetails(unsigned int, unsigned int*, unsigned int*)
+                0x0800b6b4       0x68 mw_mbed_pintable_interface.o
+                0x0800b6b4                MW_GetMbedPinDetails(unsigned int, unsigned int*, unsigned int*)
  .text.xcpTimestampInit
-                0x0800b694       0x28 xcp_platform_timer_mbed.o
+                0x0800b71c       0x28 xcp_platform_timer_mbed.o
  .text.xcpGetTimestamp
-                0x0800b6bc       0x80 xcp_platform_timer_mbed.o
-                0x0800b6bc                xcpGetTimestamp
- *fill*         0x0800b73c        0x4 
- .text.fmod     0x0800b740       0x50 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
-                0x0800b740                fmod
+                0x0800b744       0x80 xcp_platform_timer_mbed.o
+                0x0800b744                xcpGetTimestamp
+ *fill*         0x0800b7c4        0x4 
+ .text.fmod     0x0800b7c8       0x50 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
+                0x0800b7c8                fmod
  .text.__ieee754_fmod
-                0x0800b790      0x308 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
-                0x0800b790                __ieee754_fmod
- .text          0x0800ba98       0x30 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
-                0x0800ba98                __aeabi_uldivmod
+                0x0800b818      0x308 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
+                0x0800b818                __ieee754_fmod
+ .text          0x0800bb20       0x30 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+                0x0800bb20                __aeabi_uldivmod
  .text.__udivmoddi4
-                0x0800bac8      0x2bc C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
-                0x0800bac8                __udivmoddi4
- .text          0x0800bd84        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
-                0x0800bd84                __aeabi_idiv0
-                0x0800bd84                __aeabi_ldiv0
- .text.exit     0x0800bd88       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-exit.o)
-                0x0800bd88                exit
- .text.malloc   0x0800bdac       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-malloc.o)
-                0x0800bdac                malloc
- .text.free     0x0800bdbc       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-malloc.o)
-                0x0800bdbc                free
+                0x0800bb50      0x2bc C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x0800bb50                __udivmoddi4
+ .text          0x0800be0c        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+                0x0800be0c                __aeabi_idiv0
+                0x0800be0c                __aeabi_ldiv0
+ .text.exit     0x0800be10       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-exit.o)
+                0x0800be10                exit
+ .text.malloc   0x0800be34       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-malloc.o)
+                0x0800be34                malloc
+ .text.free     0x0800be44       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-malloc.o)
+                0x0800be44                free
  .text.sbrk_aligned
-                0x0800bdcc       0x44 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x0800be54       0x44 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x0800be10      0x100 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-mallocr.o)
-                0x0800be10                _malloc_r
+                0x0800be98      0x100 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x0800be98                _malloc_r
  .text._printf_common
-                0x0800bf10       0xda C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0800bf10                _printf_common
- *fill*         0x0800bfea        0x2 
+                0x0800bf98       0xda C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800bf98                _printf_common
+ *fill*         0x0800c072        0x2 
  .text._printf_i
-                0x0800bfec      0x23c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0800bfec                _printf_i
+                0x0800c074      0x23c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800c074                _printf_i
  .text.__sflush_r
-                0x0800c228      0x108 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-fflush.o)
-                0x0800c228                __sflush_r
+                0x0800c2b0      0x108 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-fflush.o)
+                0x0800c2b0                __sflush_r
  .text._fflush_r
-                0x0800c330       0x50 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-fflush.o)
-                0x0800c330                _fflush_r
- .text.fflush   0x0800c380       0x28 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-fflush.o)
-                0x0800c380                fflush
- .text.std      0x0800c3a8       0x6c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x0800c3b8       0x50 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-fflush.o)
+                0x0800c3b8                _fflush_r
+ .text.fflush   0x0800c408       0x28 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-fflush.o)
+                0x0800c408                fflush
+ .text.std      0x0800c430       0x6c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
  .text.stdio_exit_handler
-                0x0800c414       0x18 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x0800c49c       0x18 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x0800c42c       0x40 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x0800c4b4       0x40 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x0800c46c       0x3c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x0800c4f4       0x3c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
  .text.__sfp_lock_acquire
-                0x0800c4a8        0xc C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
-                0x0800c4a8                __sfp_lock_acquire
+                0x0800c530        0xc C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x0800c530                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0800c4b4        0xc C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
-                0x0800c4b4                __sfp_lock_release
- .text.__sinit  0x0800c4c0       0x30 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
-                0x0800c4c0                __sinit
+                0x0800c53c        0xc C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x0800c53c                __sfp_lock_release
+ .text.__sinit  0x0800c548       0x30 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x0800c548                __sinit
  .text._fwalk_sglue
-                0x0800c4f0       0x3c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-fwalk.o)
-                0x0800c4f0                _fwalk_sglue
- .text.__sread  0x0800c52c       0x22 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-stdio.o)
-                0x0800c52c                __sread
+                0x0800c578       0x3c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-fwalk.o)
+                0x0800c578                _fwalk_sglue
+ .text.__sread  0x0800c5b4       0x22 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-stdio.o)
+                0x0800c5b4                __sread
  .text.__swrite
-                0x0800c54e       0x38 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-stdio.o)
-                0x0800c54e                __swrite
- .text.__sseek  0x0800c586       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-stdio.o)
-                0x0800c586                __sseek
+                0x0800c5d6       0x38 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-stdio.o)
+                0x0800c5d6                __swrite
+ .text.__sseek  0x0800c60e       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-stdio.o)
+                0x0800c60e                __sseek
  .text.__sclose
-                0x0800c5aa        0x8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-stdio.o)
-                0x0800c5aa                __sclose
+                0x0800c632        0x8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-stdio.o)
+                0x0800c632                __sclose
  .text._vsnprintf_r
-                0x0800c5b2       0x56 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-vsnprintf.o)
-                0x0800c5b2                _vsnprintf_r
-                0x0800c5b2                _vsniprintf_r
+                0x0800c63a       0x56 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-vsnprintf.o)
+                0x0800c63a                _vsnprintf_r
+                0x0800c63a                _vsniprintf_r
  .text.vsnprintf
-                0x0800c608       0x1c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-vsnprintf.o)
-                0x0800c608                vsnprintf
-                0x0800c608                vsniprintf
- .text.memmove  0x0800c624       0x34 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memmove.o)
-                0x0800c624                memmove
- .text.memset   0x0800c658       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memset.o)
-                0x0800c658                memset
+                0x0800c690       0x1c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-vsnprintf.o)
+                0x0800c690                vsnprintf
+                0x0800c690                vsniprintf
+ .text.memmove  0x0800c6ac       0x34 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memmove.o)
+                0x0800c6ac                memmove
+ .text.memset   0x0800c6e0       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memset.o)
+                0x0800c6e0                memset
  .text._close_r
-                0x0800c668       0x20 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-closer.o)
-                0x0800c668                _close_r
+                0x0800c6f0       0x20 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-closer.o)
+                0x0800c6f0                _close_r
  .text._lseek_r
-                0x0800c688       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lseekr.o)
-                0x0800c688                _lseek_r
- .text._read_r  0x0800c6ac       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-readr.o)
-                0x0800c6ac                _read_r
- .text._sbrk_r  0x0800c6d0       0x20 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-sbrkr.o)
-                0x0800c6d0                _sbrk_r
+                0x0800c710       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lseekr.o)
+                0x0800c710                _lseek_r
+ .text._read_r  0x0800c734       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-readr.o)
+                0x0800c734                _read_r
+ .text._sbrk_r  0x0800c758       0x20 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-sbrkr.o)
+                0x0800c758                _sbrk_r
  .text._write_r
-                0x0800c6f0       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-writer.o)
-                0x0800c6f0                _write_r
- .text.__errno  0x0800c714        0xc C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
-                0x0800c714                __errno
+                0x0800c778       0x24 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-writer.o)
+                0x0800c778                _write_r
+ .text.__errno  0x0800c79c        0xc C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+                0x0800c79c                __errno
  .text.__libc_init_array
-                0x0800c720       0x48 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-init.o)
-                0x0800c720                __libc_init_array
+                0x0800c7a8       0x48 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-init.o)
+                0x0800c7a8                __libc_init_array
  .text.__retarget_lock_init_recursive
-                0x0800c768        0x2 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lock.o)
-                0x0800c768                __retarget_lock_init_recursive
+                0x0800c7f0        0x2 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lock.o)
+                0x0800c7f0                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x0800c76a        0x2 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lock.o)
-                0x0800c76a                __retarget_lock_acquire_recursive
+                0x0800c7f2        0x2 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lock.o)
+                0x0800c7f2                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0800c76c        0x2 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lock.o)
-                0x0800c76c                __retarget_lock_release_recursive
- *fill*         0x0800c76e        0x2 
- .text          0x0800c770       0xa0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memchr.o)
-                0x0800c770                memchr
- .text.memcpy   0x0800c810       0x1c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memcpy-stub.o)
-                0x0800c810                memcpy
- .text          0x0800c82c       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-strlen.o)
-                0x0800c82c                strlen
- .text._free_r  0x0800c83c       0x94 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-freer.o)
-                0x0800c83c                _free_r
+                0x0800c7f4        0x2 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lock.o)
+                0x0800c7f4                __retarget_lock_release_recursive
+ *fill*         0x0800c7f6        0xa 
+ .text          0x0800c800       0xa0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memchr.o)
+                0x0800c800                memchr
+ .text.memcpy   0x0800c8a0       0x1c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+                0x0800c8a0                memcpy
+ .text          0x0800c8bc       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-strlen.o)
+                0x0800c8bc                strlen
+ .text._free_r  0x0800c8cc       0x94 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-freer.o)
+                0x0800c8cc                _free_r
  .text._realloc_r
-                0x0800c8d0       0x5c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-reallocr.o)
-                0x0800c8d0                _realloc_r
+                0x0800c960       0x5c C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-reallocr.o)
+                0x0800c960                _realloc_r
  .text.__ssputs_r
-                0x0800c92c       0xb6 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
-                0x0800c92c                __ssputs_r
- *fill*         0x0800c9e2        0x2 
+                0x0800c9bc       0xb6 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x0800c9bc                __ssputs_r
+ *fill*         0x0800ca72        0x2 
  .text._svfprintf_r
-                0x0800c9e4      0x1f8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
-                0x0800c9e4                _svfiprintf_r
-                0x0800c9e4                _svfprintf_r
+                0x0800ca74      0x1f8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x0800ca74                _svfiprintf_r
+                0x0800ca74                _svfprintf_r
  .text._malloc_usable_size_r
-                0x0800cbdc       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-msizer.o)
-                0x0800cbdc                _malloc_usable_size_r
+                0x0800cc6c       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-msizer.o)
+                0x0800cc6c                _malloc_usable_size_r
  *(.init)
- .init          0x0800cbec        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
-                0x0800cbec                _init
- .init          0x0800cbf0        0x8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
+ .init          0x0800cc7c        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x0800cc7c                _init
+ .init          0x0800cc80        0x8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
  *(.fini)
- .fini          0x0800cbf8        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
-                0x0800cbf8                _fini
- .fini          0x0800cbfc        0x8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
+ .fini          0x0800cc88        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x0800cc88                _fini
+ .fini          0x0800cc8c        0x8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -11546,128 +11546,128 @@ LOAD C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.i
  *(.dtors)
  *(.rodata*)
  .rodata.PinMap_PWM
-                0x0800cc04      0x33c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
-                0x0800cc04                PinMap_PWM
+                0x0800cc94      0x33c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
+                0x0800cc94                PinMap_PWM
  .rodata.PinMap_UART_RX
-                0x0800cf40      0x108 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
-                0x0800cf40                PinMap_UART_RX
+                0x0800cfd0      0x108 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
+                0x0800cfd0                PinMap_UART_RX
  .rodata.PinMap_UART_TX
-                0x0800d048      0x108 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
-                0x0800d048                PinMap_UART_TX
+                0x0800d0d8      0x108 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
+                0x0800d0d8                PinMap_UART_TX
  .rodata.Set_GPIO_Clock.str1.1
-                0x0800d150      0x28b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/gpio_api.o
+                0x0800d1e0      0x28b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/gpio_api.o
                                  0x21 (size before relaxing)
  .rodata.mbed_error_vprintf.str1.1
-                0x0800d3db        0x5 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_B~1.O
+                0x0800d46b        0x5 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_B~1.O
  .rodata.print_context_info.str1.1
-                0x0800d3db      0x12d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_F~1.O
+                0x0800d46b      0x12d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_F~1.O
  .rodata.mbed_fault_handler.str1.1
-                0x0800d3db       0x90 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_F~1.O
- *fill*         0x0800d3db        0x1 
+                0x0800d46b       0x90 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_F~1.O
+ *fill*         0x0800d46b        0x1 
  .rodata.mbed_fault_context
-                0x0800d3dc        0x4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_F~1.O
-                0x0800d3dc                mbed_fault_context
+                0x0800d46c        0x4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_F~1.O
+                0x0800d46c                mbed_fault_context
  .rodata._ZTV12DirectSerial
-                0x0800d3e0       0x5c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_R~1.O
-                0x0800d3e0                vtable for DirectSerial
+                0x0800d470       0x5c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_R~1.O
+                0x0800d470                vtable for DirectSerial
  .rodata.us_data
-                0x0800d43c        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_U~1.O
+                0x0800d4cc        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_U~1.O
  .rodata.us_interface
-                0x0800d444       0x24 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_U~1.O
+                0x0800d4d4       0x24 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_U~1.O
  .rodata.ll_pin_defines
-                0x0800d468       0x40 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/pinmap.o
-                0x0800d468                ll_pin_defines
+                0x0800d4f8       0x40 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/pinmap.o
+                0x0800d4f8                ll_pin_defines
  .rodata.pwmout_write.str1.1
-                0x0800d4a8       0x17 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
+                0x0800d538       0x17 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
  .rodata.pwmout_period_us.str1.1
-                0x0800d4a8       0x15 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
+                0x0800d538       0x15 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
  .rodata.CSWTCH.30
-                0x0800d4a8       0x12 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
+                0x0800d538       0x12 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
  .rodata.CSWTCH.31
-                0x0800d4ba       0x1a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
+                0x0800d54a       0x1a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
  .rodata.pwm_apb_map_table
-                0x0800d4d4       0x68 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~2.O
-                0x0800d4d4                pwm_apb_map_table
+                0x0800d564       0x68 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~2.O
+                0x0800d564                pwm_apb_map_table
  .rodata.serial_init.str1.1
-                0x0800d53c       0x35 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~3.O
+                0x0800d5cc       0x35 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~3.O
  .rodata.flagBitshiftOffset.15643
-                0x0800d53c        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STD715~1.O
+                0x0800d5cc        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STD715~1.O
  .rodata.CSWTCH.40
-                0x0800d544        0x3 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST321F~1.O
+                0x0800d5d4        0x3 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST321F~1.O
  .rodata.CSWTCH.41
-                0x0800d547        0xd C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST321F~1.O
+                0x0800d5d7        0xd C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST321F~1.O
  .rodata.SetSysClock.str1.1
-                0x0800d554       0x14 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~1.O
+                0x0800d5e4       0x14 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~1.O
  .rodata.AHBPrescTable
-                0x0800d554       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~2.O
-                0x0800d554                AHBPrescTable
+                0x0800d5e4       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~2.O
+                0x0800d5e4                AHBPrescTable
  .rodata.APBPrescTable
-                0x0800d564        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~2.O
-                0x0800d564                APBPrescTable
+                0x0800d5f4        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~2.O
+                0x0800d5f4                APBPrescTable
  .rodata.info.17609
-                0x0800d56c        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/US_TIC~1.O
+                0x0800d5fc        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/US_TIC~1.O
  .rodata.OutputCalibration_M
-                0x0800d574        0x4 OutputCalibration.o
-                0x0800d574                OutputCalibration_M
+                0x0800d604        0x4 OutputCalibration.o
+                0x0800d604                OutputCalibration_M
  .rodata.rtAlwaysEnabled.0
-                0x0800d578        0x1 OutputCalibration.o
- *fill*         0x0800d579        0x3 
+                0x0800d608        0x1 OutputCalibration.o
+ *fill*         0x0800d609        0x3 
  .rodata.standardSupportedRxPacket
-                0x0800d57c       0x54 xcp_standard.o
+                0x0800d60c       0x54 xcp_standard.o
  .rodata.daqSupportedRxPacket
-                0x0800d5d0       0x9c xcp_daq.o
+                0x0800d660       0x9c xcp_daq.o
  .rodata.calibrationSupportedRxPacket
-                0x0800d66c       0x18 xcp_calibration.o
- *fill*         0x0800d684        0x4 
- .rodata.Zero   0x0800d688       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
+                0x0800d6fc       0x18 xcp_calibration.o
+ *fill*         0x0800d714        0x4 
+ .rodata.Zero   0x0800d718       0x10 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
  .rodata._printf_i.str1.1
-                0x0800d698       0x22 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800d728       0x22 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
  .rodata._svfprintf_r.str1.1
-                0x0800d698       0x11 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x0800d728       0x11 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
  *(.eh_frame*)
- .eh_frame      0x0800d698        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
- .eh_frame      0x0800d698       0x50 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memchr.o)
- .eh_frame      0x0800d6e8       0x28 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-strlen.o)
- .eh_frame      0x0800d710        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtend.o
+ .eh_frame      0x0800d728        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .eh_frame      0x0800d728       0x50 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memchr.o)
+ .eh_frame      0x0800d778       0x28 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-strlen.o)
+ .eh_frame      0x0800d7a0        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtend.o
 
-.glue_7         0x0800d714        0x0
- .glue_7        0x0800d714        0x0 linker stubs
+.glue_7         0x0800d7a4        0x0
+ .glue_7        0x0800d7a4        0x0 linker stubs
 
-.glue_7t        0x0800d714        0x0
- .glue_7t       0x0800d714        0x0 linker stubs
+.glue_7t        0x0800d7a4        0x0
+ .glue_7t       0x0800d7a4        0x0 linker stubs
 
-.vfp11_veneer   0x0800d714        0x0
- .vfp11_veneer  0x0800d714        0x0 linker stubs
+.vfp11_veneer   0x0800d7a4        0x0
+ .vfp11_veneer  0x0800d7a4        0x0 linker stubs
 
-.v4_bx          0x0800d714        0x0
- .v4_bx         0x0800d714        0x0 linker stubs
+.v4_bx          0x0800d7a4        0x0
+ .v4_bx         0x0800d7a4        0x0 linker stubs
 
-.iplt           0x0800d714        0x0
- .iplt          0x0800d714        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x0800d7a4        0x0
+ .iplt          0x0800d7a4        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800d714                        __exidx_start = .
+                0x0800d7a4                        __exidx_start = .
 
-.ARM.exidx      0x0800d714        0x8
+.ARM.exidx      0x0800d7a4        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0800d714        0x8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crt0.o
+ .ARM.exidx     0x0800d7a4        0x8 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crt0.o
                                  0x10 (size before relaxing)
- .ARM.exidx     0x0800d71c        0x0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/except.o
+ .ARM.exidx     0x0800d7ac        0x0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/except.o
                                  0x28 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x0800d71c        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x0800d7ac        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0800d71c        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memchr.o)
+ .ARM.exidx     0x0800d7ac        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-memchr.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0800d71c        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x0800d7ac        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
-                0x0800d71c                        __exidx_end = .
-                0x0800d71c                        __etext = .
-                0x0800d71c                        _sidata = .
+                0x0800d7ac                        __exidx_end = .
+                0x0800d7ac                        __etext = .
+                0x0800d7ac                        _sidata = .
 
-.rel.dyn        0x0800d71c        0x0
- .rel.iplt      0x0800d71c        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.rel.dyn        0x0800d7ac        0x0
+ .rel.iplt      0x0800d7ac        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
 .crash_data_ram
                 0x200001f8      0x100
@@ -11681,7 +11681,7 @@ LOAD C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.i
                 0x200002f8                        . = ALIGN (0x8)
                 0x200002f8                        __CRASH_DATA_RAM_END__ = .
 
-.data           0x200002f8      0x9c0 load address 0x0800d71c
+.data           0x200002f8      0x9c0 load address 0x0800d7ac
                 0x200002f8                        __data_start__ = .
                 0x200002f8                        _sdata = .
  *(vtable)
@@ -11759,16 +11759,16 @@ LOAD C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.i
                 0x20000cb8                        _edata = .
 
 .tm_clone_table
-                0x20000cb8        0x0 load address 0x0800e0dc
+                0x20000cb8        0x0 load address 0x0800e16c
  .tm_clone_table
                 0x20000cb8        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
  .tm_clone_table
                 0x20000cb8        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtend.o
 
-.igot.plt       0x20000cb8        0x0 load address 0x0800e0dc
+.igot.plt       0x20000cb8        0x0 load address 0x0800e16c
  .igot.plt      0x20000cb8        0x0 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.bss            0x20000cb8     0x22e0 load address 0x0800e0e0
+.bss            0x20000cb8     0x2300 load address 0x0800e170
                 0x20000cb8                        . = ALIGN (0x8)
                 0x20000cb8                        __bss_start__ = .
                 0x20000cb8                        _sbss = .
@@ -11826,232 +11826,232 @@ LOAD C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.i
                 0x20000e20       0x10 OutputCalibration.o
                 0x20000e20                OutputCalibration_B
  .bss.OutputCalibration_DW
-                0x20000e30       0x38 OutputCalibration.o
+                0x20000e30       0x50 OutputCalibration.o
                 0x20000e30                OutputCalibration_DW
  .bss.OutputCalibration_M_
-                0x20000e68       0x48 OutputCalibration.o
+                0x20000e80       0x48 OutputCalibration.o
  .bss.rt_ExtModeInfo.2
-                0x20000eb0       0x14 OutputCalibration.o
+                0x20000ec8       0x14 OutputCalibration.o
  .bss.systemRan.1
-                0x20000ec4       0x10 OutputCalibration.o
+                0x20000edc       0x14 OutputCalibration.o
  .bss.IsrOverrun
-                0x20000ed4        0x4 ert_main.o
-                0x20000ed4                IsrOverrun
+                0x20000ef0        0x4 ert_main.o
+                0x20000ef0                IsrOverrun
  .bss.OverrunFlag
-                0x20000ed8        0x1 ert_main.o
+                0x20000ef4        0x1 ert_main.o
  .bss.stopRequested
-                0x20000ed9        0x1 ert_main.o
-                0x20000ed9                stopRequested
- .bss.runModel  0x20000eda        0x1 ert_main.o
-                0x20000eda                runModel
+                0x20000ef5        0x1 ert_main.o
+                0x20000ef5                stopRequested
+ .bss.runModel  0x20000ef6        0x1 ert_main.o
+                0x20000ef6                runModel
  .bss.xcpModelStartRequest
-                0x20000edb        0x1 xcp_ext_common.o
-                0x20000edb                xcpModelStartRequest
+                0x20000ef7        0x1 xcp_ext_common.o
+                0x20000ef7                xcpModelStartRequest
  .bss.xcpModelStopRequest
-                0x20000edc        0x1 xcp_ext_common.o
-                0x20000edc                xcpModelStopRequest
+                0x20000ef8        0x1 xcp_ext_common.o
+                0x20000ef8                xcpModelStopRequest
  .bss.xcpModelStatus
-                0x20000edd        0x1 xcp_ext_common.o
-                0x20000edd                xcpModelStatus
- *fill*         0x20000ede        0x2 
+                0x20000ef9        0x1 xcp_ext_common.o
+                0x20000ef9                xcpModelStatus
+ *fill*         0x20000efa        0x2 
  .bss.xcpModelChecksum0
-                0x20000ee0        0x4 xcp_ext_common.o
-                0x20000ee0                xcpModelChecksum0
+                0x20000efc        0x4 xcp_ext_common.o
+                0x20000efc                xcpModelChecksum0
  .bss.xcpModelChecksum1
-                0x20000ee4        0x4 xcp_ext_common.o
-                0x20000ee4                xcpModelChecksum1
+                0x20000f00        0x4 xcp_ext_common.o
+                0x20000f00                xcpModelChecksum1
  .bss.xcpModelChecksum2
-                0x20000ee8        0x4 xcp_ext_common.o
-                0x20000ee8                xcpModelChecksum2
+                0x20000f04        0x4 xcp_ext_common.o
+                0x20000f04                xcpModelChecksum2
  .bss.xcpModelChecksum3
-                0x20000eec        0x4 xcp_ext_common.o
-                0x20000eec                xcpModelChecksum3
+                0x20000f08        0x4 xcp_ext_common.o
+                0x20000f08                xcpModelChecksum3
  .bss.xcpModelIntegerCode
-                0x20000ef0        0x4 xcp_ext_common.o
-                0x20000ef0                xcpModelIntegerCode
+                0x20000f0c        0x4 xcp_ext_common.o
+                0x20000f0c                xcpModelIntegerCode
  .bss.xcpExtmodeSimulationComplete
-                0x20000ef4        0x1 xcp_ext_common.o
-                0x20000ef4                xcpExtmodeSimulationComplete
- *fill*         0x20000ef5        0x3 
+                0x20000f10        0x1 xcp_ext_common.o
+                0x20000f10                xcpExtmodeSimulationComplete
+ *fill*         0x20000f11        0x7 
  .bss.xcpDummyDoubleVariable
-                0x20000ef8        0x8 xcp_ext_common.o
-                0x20000ef8                xcpDummyDoubleVariable
+                0x20000f18        0x8 xcp_ext_common.o
+                0x20000f18                xcpDummyDoubleVariable
  .bss.xcpDummyUint64Variable
-                0x20000f00        0x8 xcp_ext_common.o
-                0x20000f00                xcpDummyUint64Variable
+                0x20000f20        0x8 xcp_ext_common.o
+                0x20000f20                xcpDummyUint64Variable
  .bss.xcpCurrentSimulationTimeInMs
-                0x20000f08        0x8 xcp_ext_common.o
-                0x20000f08                xcpCurrentSimulationTimeInMs
+                0x20000f28        0x8 xcp_ext_common.o
+                0x20000f28                xcpCurrentSimulationTimeInMs
  .bss.xcpBaseRateSimulationTime
-                0x20000f10        0x8 xcp_ext_common.o
+                0x20000f30        0x8 xcp_ext_common.o
  .bss.xcpClassicTriggerEventId
-                0x20000f18        0x2 xcp_ext_classic_trigger.o
-                0x20000f18                xcpClassicTriggerEventId
- *fill*         0x20000f1a        0x2 
+                0x20000f38        0x2 xcp_ext_classic_trigger.o
+                0x20000f38                xcpClassicTriggerEventId
+ *fill*         0x20000f3a        0x2 
  .bss.xcpClassicTriggerSignalAddress
-                0x20000f1c        0x4 xcp_ext_classic_trigger.o
-                0x20000f1c                xcpClassicTriggerSignalAddress
+                0x20000f3c        0x4 xcp_ext_classic_trigger.o
+                0x20000f3c                xcpClassicTriggerSignalAddress
  .bss.xcpClassicTriggerSignalAddressExtension
-                0x20000f20        0x1 xcp_ext_classic_trigger.o
-                0x20000f20                xcpClassicTriggerSignalAddressExtension
- *fill*         0x20000f21        0x7 
+                0x20000f40        0x1 xcp_ext_classic_trigger.o
+                0x20000f40                xcpClassicTriggerSignalAddressExtension
+ *fill*         0x20000f41        0x7 
  .bss.xcpClassicTriggerLevel
-                0x20000f28        0x8 xcp_ext_classic_trigger.o
-                0x20000f28                xcpClassicTriggerLevel
+                0x20000f48        0x8 xcp_ext_classic_trigger.o
+                0x20000f48                xcpClassicTriggerLevel
  .bss.xcpClassicTriggerHoldOff
-                0x20000f30        0x4 xcp_ext_classic_trigger.o
-                0x20000f30                xcpClassicTriggerHoldOff
+                0x20000f50        0x4 xcp_ext_classic_trigger.o
+                0x20000f50                xcpClassicTriggerHoldOff
  .bss.xcpClassicTriggerDelay
-                0x20000f34        0x4 xcp_ext_classic_trigger.o
-                0x20000f34                xcpClassicTriggerDelay
+                0x20000f54        0x4 xcp_ext_classic_trigger.o
+                0x20000f54                xcpClassicTriggerDelay
  .bss.xcpClassicTriggerDirection
-                0x20000f38        0x1 xcp_ext_classic_trigger.o
-                0x20000f38                xcpClassicTriggerDirection
+                0x20000f58        0x1 xcp_ext_classic_trigger.o
+                0x20000f58                xcpClassicTriggerDirection
  .bss.xcpClassicTriggerCancelRequest
-                0x20000f39        0x1 xcp_ext_classic_trigger.o
-                0x20000f39                xcpClassicTriggerCancelRequest
+                0x20000f59        0x1 xcp_ext_classic_trigger.o
+                0x20000f59                xcpClassicTriggerCancelRequest
  .bss.xcpClassicTriggerSource
-                0x20000f3a        0x1 xcp_ext_classic_trigger.o
-                0x20000f3a                xcpClassicTriggerSource
+                0x20000f5a        0x1 xcp_ext_classic_trigger.o
+                0x20000f5a                xcpClassicTriggerSource
  .bss.xcpClassicTriggerMode
-                0x20000f3b        0x1 xcp_ext_classic_trigger.o
-                0x20000f3b                xcpClassicTriggerMode
+                0x20000f5b        0x1 xcp_ext_classic_trigger.o
+                0x20000f5b                xcpClassicTriggerMode
  .bss.xcpClassicTriggerStatus
-                0x20000f3c        0x1 xcp_ext_classic_trigger.o
-                0x20000f3c                xcpClassicTriggerStatus
- *fill*         0x20000f3d        0x3 
+                0x20000f5c        0x1 xcp_ext_classic_trigger.o
+                0x20000f5c                xcpClassicTriggerStatus
+ *fill*         0x20000f5d        0x3 
  .bss.xcpOldSignalValue
-                0x20000f40        0x8 xcp_ext_classic_trigger.o
+                0x20000f60        0x8 xcp_ext_classic_trigger.o
  .bss.xcpOldSignalValueAvailable
-                0x20000f48        0x1 xcp_ext_classic_trigger.o
+                0x20000f68        0x1 xcp_ext_classic_trigger.o
  .bss.xcpOldClassicTriggerSource
-                0x20000f49        0x1 xcp_ext_classic_trigger.o
+                0x20000f69        0x1 xcp_ext_classic_trigger.o
  .bss.xcpTriggerEnabled
-                0x20000f4a        0x1 xcp_ext_classic_trigger.o
+                0x20000f6a        0x1 xcp_ext_classic_trigger.o
  .bss.xcpSignalTriggerFired
-                0x20000f4b        0x1 xcp_ext_classic_trigger.o
+                0x20000f6b        0x1 xcp_ext_classic_trigger.o
  .bss.xcpTriggerCount
-                0x20000f4c        0x4 xcp_ext_classic_trigger.o
+                0x20000f6c        0x4 xcp_ext_classic_trigger.o
  .bss.xcpForcedTriggerEnabled
-                0x20000f50        0x1 xcp_ext_classic_trigger.o
+                0x20000f70        0x1 xcp_ext_classic_trigger.o
  .bss.xcpForceTriggerEnableRequest
-                0x20000f51        0x1 xcp_ext_classic_trigger.o
+                0x20000f71        0x1 xcp_ext_classic_trigger.o
  .bss.initialized
-                0x20000f52        0x1 xcp.o
+                0x20000f72        0x1 xcp.o
  .bss.xcpStatus
-                0x20000f53        0x1 xcp.o
+                0x20000f73        0x1 xcp.o
  .bss.xcpSessionStatus
-                0x20000f54        0x1 xcp.o
+                0x20000f74        0x1 xcp.o
  .bss.xcpResourceProtectionStatus
-                0x20000f55        0x1 xcp.o
+                0x20000f75        0x1 xcp.o
  .bss.xcpSessionConfigurationId
-                0x20000f56        0x2 xcp.o
+                0x20000f76        0x2 xcp.o
  .bss.groupPacketLookup
-                0x20000f58       0x10 xcp.o
- .bss.xcpMta    0x20000f68        0x8 xcp_standard.o
+                0x20000f78       0x10 xcp.o
+ .bss.xcpMta    0x20000f88        0x8 xcp_standard.o
  .bss.xcpUploadSize
-                0x20000f70        0x1 xcp_standard.o
- *fill*         0x20000f71        0x3 
+                0x20000f90        0x1 xcp_standard.o
+ *fill*         0x20000f91        0x3 
  .bss.packetLookup
-                0x20000f74        0x4 xcp_standard.o
+                0x20000f94        0x4 xcp_standard.o
  .bss.xcpDynamicDaqLists
-                0x20000f78        0x8 xcp_daq.o
+                0x20000f98        0x8 xcp_daq.o
  .bss.xcpRunningEventCounter
-                0x20000f80        0x4 xcp_daq.o
- .bss.daqLock   0x20000f84        0x4 xcp_daq.o
+                0x20000fa0        0x4 xcp_daq.o
+ .bss.daqLock   0x20000fa4        0x4 xcp_daq.o
  .bss.packetLookup
-                0x20000f88        0x4 xcp_daq.o
+                0x20000fa8        0x4 xcp_daq.o
  .bss.packetLookup
-                0x20000f8c        0x4 xcp_calibration.o
- .bss.txFifo    0x20000f90       0x10 xcp_transport.o
- .bss.txLock    0x20000fa0        0x4 xcp_transport.o
- .bss.rxFifo    0x20000fa4        0x8 xcp_transport.o
- .bss.rxLock    0x20000fac        0x4 xcp_transport.o
+                0x20000fac        0x4 xcp_calibration.o
+ .bss.txFifo    0x20000fb0       0x10 xcp_transport.o
+ .bss.txLock    0x20000fc0        0x4 xcp_transport.o
+ .bss.rxFifo    0x20000fc4        0x8 xcp_transport.o
+ .bss.rxLock    0x20000fcc        0x4 xcp_transport.o
  .bss.initialized
-                0x20000fb0        0x1 xcp_transport.o
- *fill*         0x20000fb1        0x3 
+                0x20000fd0        0x1 xcp_transport.o
+ *fill*         0x20000fd1        0x3 
  .bss.xcpMemPoolDescriptors
-                0x20000fb4       0xc0 xcp_mem_default.o
+                0x20000fd4       0xc0 xcp_mem_default.o
  .bss.xcpMemCustomPoolDescriptors
-                0x20001074        0x8 xcp_mem_default.o
+                0x20001094        0x8 xcp_mem_default.o
  .bss.xcpMemMainChunk
-                0x2000107c      0x3a7 xcp_mem_default.o
- *fill*         0x20001423        0x1 
+                0x2000109c      0x3a7 xcp_mem_default.o
+ *fill*         0x20001443        0x1 
  .bss.xcpMemReservedPoolsChunk
-                0x20001424      0x49f xcp_mem_default.o
- *fill*         0x200018c3        0x1 
+                0x20001444      0x49f xcp_mem_default.o
+ *fill*         0x200018e3        0x1 
  .bss.xcpMemReservedPoolsChunkUsedBytes
-                0x200018c4        0x4 xcp_mem_default.o
+                0x200018e4        0x4 xcp_mem_default.o
  .bss.xcpMemLock
-                0x200018c8        0x4 xcp_mem_default.o
+                0x200018e8        0x4 xcp_mem_default.o
  .bss.forceBlocking
-                0x200018cc        0x1 xcp_drv_rtiostream.o
- *fill*         0x200018cd        0x1 
+                0x200018ec        0x1 xcp_drv_rtiostream.o
+ *fill*         0x200018ed        0x1 
  .bss.txCounter
-                0x200018ce        0x2 xcp_frame_serial.o
+                0x200018ee        0x2 xcp_frame_serial.o
  .bss.rxCounter
-                0x200018d0        0x2 xcp_frame_serial.o
- *fill*         0x200018d2        0x2 
+                0x200018f0        0x2 xcp_frame_serial.o
+ *fill*         0x200018f2        0x2 
  .bss.firstRxCounterReceived
-                0x200018d4        0x4 xcp_frame_serial.o
+                0x200018f4        0x4 xcp_frame_serial.o
  .bss.initialized
-                0x200018d8        0x1 xcp_frame_serial.o
- *fill*         0x200018d9        0x3 
+                0x200018f8        0x1 xcp_frame_serial.o
+ *fill*         0x200018f9        0x3 
  .bss.schdl_counter
-                0x200018dc        0x4 SysTickScheduler.o
-                0x200018dc                schdl_counter
+                0x200018fc        0x4 SysTickScheduler.o
+                0x200018fc                schdl_counter
  .bss.schdl_counter_max
-                0x200018e0        0x4 SysTickScheduler.o
-                0x200018e0                schdl_counter_max
+                0x20001900        0x4 SysTickScheduler.o
+                0x20001900                schdl_counter_max
  .bss.taskToSchedule
-                0x200018e4        0x4 m3m4m4f_multitasking.o
-                0x200018e4                taskToSchedule
+                0x20001904        0x4 m3m4m4f_multitasking.o
+                0x20001904                taskToSchedule
  .bss.extModeLink
-                0x200018e8     0x1140 rtiostream_serial_dma.o
-                0x200018e8                extModeLink
+                0x20001908     0x1140 rtiostream_serial_dma.o
+                0x20001908                extModeLink
  .bss.xcpTimestampInitialized
-                0x20002a28        0x4 xcp_platform_timer_mbed.o
+                0x20002a48        0x4 xcp_platform_timer_mbed.o
  .bss.xcpTimestampStartTime
-                0x20002a2c        0x4 xcp_platform_timer_mbed.o
+                0x20002a4c        0x4 xcp_platform_timer_mbed.o
  .bss.currentTime.0
-                0x20002a30        0x4 xcp_platform_timer_mbed.o
+                0x20002a50        0x4 xcp_platform_timer_mbed.o
  .bss.__malloc_sbrk_start
-                0x20002a34        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-mallocr.o)
-                0x20002a34                __malloc_sbrk_start
+                0x20002a54        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x20002a54                __malloc_sbrk_start
  .bss.__malloc_free_list
-                0x20002a38        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-mallocr.o)
-                0x20002a38                __malloc_free_list
- .bss.__sf      0x20002a3c      0x138 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
-                0x20002a3c                __sf
+                0x20002a58        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x20002a58                __malloc_free_list
+ .bss.__sf      0x20002a5c      0x138 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x20002a5c                __sf
  .bss.__stdio_exit_handler
-                0x20002b74        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
-                0x20002b74                __stdio_exit_handler
- .bss.errno     0x20002b78        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-reent.o)
-                0x20002b78                errno
+                0x20002b94        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-findfp.o)
+                0x20002b94                __stdio_exit_handler
+ .bss.errno     0x20002b98        0x4 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-reent.o)
+                0x20002b98                errno
  .bss.__lock___sfp_recursive_mutex
-                0x20002b7c        0x1 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lock.o)
-                0x20002b7c                __lock___sfp_recursive_mutex
+                0x20002b9c        0x1 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-lock.o)
+                0x20002b9c                __lock___sfp_recursive_mutex
  *(COMMON)
- *fill*         0x20002b7d        0x3 
- COMMON         0x20002b80       0x4c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~3.O
-                0x20002b80                stdio_uart
- COMMON         0x20002bcc      0x380 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~4.O
-                0x20002bcc                uart_handlers
- COMMON         0x20002f4c       0x4c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/US_TIC~1.O
-                0x20002f4c                TimMasterHandle
-                0x20002f8c                timer_ccr1_reg
-                0x20002f90                timer_dier_reg
-                0x20002f94                timer_cnt_reg
-                0x20002f98                        . = ALIGN (0x8)
-                0x20002f98                        __bss_end__ = .
-                0x20002f98                        _ebss = .
+ *fill*         0x20002b9d        0x3 
+ COMMON         0x20002ba0       0x4c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~3.O
+                0x20002ba0                stdio_uart
+ COMMON         0x20002bec      0x380 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~4.O
+                0x20002bec                uart_handlers
+ COMMON         0x20002f6c       0x4c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/US_TIC~1.O
+                0x20002f6c                TimMasterHandle
+                0x20002fac                timer_ccr1_reg
+                0x20002fb0                timer_dier_reg
+                0x20002fb4                timer_cnt_reg
+                0x20002fb8                        . = ALIGN (0x8)
+                0x20002fb8                        __bss_end__ = .
+                0x20002fb8                        _ebss = .
 
-.heap           0x20002f98    0x7cc68
-                0x20002f98                        __end__ = .
-                0x20002f98                        end = __end__
+.heap           0x20002fb8    0x7cc48
+                0x20002fb8                        __end__ = .
+                0x20002fb8                        end = __end__
  *(.heap*)
                 0x2007fc00                        . = ((ORIGIN (RAM) + LENGTH (RAM)) - STACK_SIZE)
- *fill*         0x20002f98    0x7cc68 
+ *fill*         0x20002fb8    0x7cc48 
                 0x2007fc00                        __HeapLimit = .
 
 .stack_dummy
@@ -12362,7 +12362,7 @@ LOAD linker stubs
  .debug_line_str
                 0x0000029f       0xeb C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-strlen.o)
 
-.debug_info     0x00000000    0x6694a
+.debug_info     0x00000000    0x6697c
  .debug_info    0x00000000     0x22a6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/FILEHA~1.O
  .debug_info    0x000022a6     0x35ab C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/INTERR~1.O
  .debug_info    0x00005851     0x1546 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
@@ -12408,31 +12408,31 @@ LOAD linker stubs
  .debug_info    0x0004cedb     0x3890 MW_digitalIO.o
  .debug_info    0x0005076b     0x38f2 MW_PWM.o
  .debug_info    0x0005405d      0x7a3 xcp_ext_mode.o
- .debug_info    0x00054800      0xbdf OutputCalibration.o
- .debug_info    0x000553df      0x57c ert_main.o
- .debug_info    0x0005595b      0x6dd xcp_ext_common.o
- .debug_info    0x00056038      0x52a xcp_ext_classic_trigger.o
- .debug_info    0x00056562     0x120b xcp.o
- .debug_info    0x0005776d      0xe17 xcp_standard.o
- .debug_info    0x00058584     0x20f8 xcp_daq.o
- .debug_info    0x0005a67c      0x670 xcp_calibration.o
- .debug_info    0x0005acec      0x229 xcp_fifo.o
- .debug_info    0x0005af15      0x910 xcp_transport.o
- .debug_info    0x0005b825      0x72f xcp_mem_default.o
- .debug_info    0x0005bf54      0x4d2 xcp_drv_rtiostream.o
- .debug_info    0x0005c426       0xdd xcp_utils.o
- .debug_info    0x0005c503      0x6e1 xcp_frame_serial.o
- .debug_info    0x0005cbe4      0x152 xcp_ext_param_default_serial.o
- .debug_info    0x0005cd36     0x3258 mw_mbed_interface.o
- .debug_info    0x0005ff8e      0x88c stm32f7xx_init_board.o
- .debug_info    0x0006081a      0x9a7 SysTickScheduler.o
- .debug_info    0x000611c1       0xd0 m3m4m4f_multitasking.o
- .debug_info    0x00061291      0x17b sys_arch.o
- .debug_info    0x0006140c     0x1fa1 rtiostream_serial_dma.o
- .debug_info    0x000633ad     0x325c mw_mbed_pintable_interface.o
- .debug_info    0x00066609      0x341 xcp_platform_timer_mbed.o
+ .debug_info    0x00054800      0xc11 OutputCalibration.o
+ .debug_info    0x00055411      0x57c ert_main.o
+ .debug_info    0x0005598d      0x6dd xcp_ext_common.o
+ .debug_info    0x0005606a      0x52a xcp_ext_classic_trigger.o
+ .debug_info    0x00056594     0x120b xcp.o
+ .debug_info    0x0005779f      0xe17 xcp_standard.o
+ .debug_info    0x000585b6     0x20f8 xcp_daq.o
+ .debug_info    0x0005a6ae      0x670 xcp_calibration.o
+ .debug_info    0x0005ad1e      0x229 xcp_fifo.o
+ .debug_info    0x0005af47      0x910 xcp_transport.o
+ .debug_info    0x0005b857      0x72f xcp_mem_default.o
+ .debug_info    0x0005bf86      0x4d2 xcp_drv_rtiostream.o
+ .debug_info    0x0005c458       0xdd xcp_utils.o
+ .debug_info    0x0005c535      0x6e1 xcp_frame_serial.o
+ .debug_info    0x0005cc16      0x152 xcp_ext_param_default_serial.o
+ .debug_info    0x0005cd68     0x3258 mw_mbed_interface.o
+ .debug_info    0x0005ffc0      0x88c stm32f7xx_init_board.o
+ .debug_info    0x0006084c      0x9a7 SysTickScheduler.o
+ .debug_info    0x000611f3       0xd0 m3m4m4f_multitasking.o
+ .debug_info    0x000612c3      0x17b sys_arch.o
+ .debug_info    0x0006143e     0x1fa1 rtiostream_serial_dma.o
+ .debug_info    0x000633df     0x325c mw_mbed_pintable_interface.o
+ .debug_info    0x0006663b      0x341 xcp_platform_timer_mbed.o
 
-.debug_abbrev   0x00000000     0xe3c6
+.debug_abbrev   0x00000000     0xe3c5
  .debug_abbrev  0x00000000      0x68d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/FILEHA~1.O
  .debug_abbrev  0x0000068d      0x8c4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/INTERR~1.O
  .debug_abbrev  0x00000f51      0x237 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
@@ -12478,29 +12478,29 @@ LOAD linker stubs
  .debug_abbrev  0x0000a546      0x5ef MW_digitalIO.o
  .debug_abbrev  0x0000ab35      0x615 MW_PWM.o
  .debug_abbrev  0x0000b14a      0x237 xcp_ext_mode.o
- .debug_abbrev  0x0000b381      0x186 OutputCalibration.o
- .debug_abbrev  0x0000b507      0x211 ert_main.o
- .debug_abbrev  0x0000b718      0x1fd xcp_ext_common.o
- .debug_abbrev  0x0000b915      0x146 xcp_ext_classic_trigger.o
- .debug_abbrev  0x0000ba5b      0x378 xcp.o
- .debug_abbrev  0x0000bdd3      0x2ff xcp_standard.o
- .debug_abbrev  0x0000c0d2      0x3d6 xcp_daq.o
- .debug_abbrev  0x0000c4a8      0x21e xcp_calibration.o
- .debug_abbrev  0x0000c6c6       0xe9 xcp_fifo.o
- .debug_abbrev  0x0000c7af      0x268 xcp_transport.o
- .debug_abbrev  0x0000ca17      0x20b xcp_mem_default.o
- .debug_abbrev  0x0000cc22      0x152 xcp_drv_rtiostream.o
- .debug_abbrev  0x0000cd74       0x9c xcp_utils.o
- .debug_abbrev  0x0000ce10      0x226 xcp_frame_serial.o
- .debug_abbrev  0x0000d036       0x81 xcp_ext_param_default_serial.o
- .debug_abbrev  0x0000d0b7      0x454 mw_mbed_interface.o
- .debug_abbrev  0x0000d50b      0x18a stm32f7xx_init_board.o
- .debug_abbrev  0x0000d695      0x218 SysTickScheduler.o
- .debug_abbrev  0x0000d8ad       0x89 m3m4m4f_multitasking.o
- .debug_abbrev  0x0000d936      0x12f sys_arch.o
- .debug_abbrev  0x0000da65      0x3e6 rtiostream_serial_dma.o
- .debug_abbrev  0x0000de4b      0x459 mw_mbed_pintable_interface.o
- .debug_abbrev  0x0000e2a4      0x122 xcp_platform_timer_mbed.o
+ .debug_abbrev  0x0000b381      0x185 OutputCalibration.o
+ .debug_abbrev  0x0000b506      0x211 ert_main.o
+ .debug_abbrev  0x0000b717      0x1fd xcp_ext_common.o
+ .debug_abbrev  0x0000b914      0x146 xcp_ext_classic_trigger.o
+ .debug_abbrev  0x0000ba5a      0x378 xcp.o
+ .debug_abbrev  0x0000bdd2      0x2ff xcp_standard.o
+ .debug_abbrev  0x0000c0d1      0x3d6 xcp_daq.o
+ .debug_abbrev  0x0000c4a7      0x21e xcp_calibration.o
+ .debug_abbrev  0x0000c6c5       0xe9 xcp_fifo.o
+ .debug_abbrev  0x0000c7ae      0x268 xcp_transport.o
+ .debug_abbrev  0x0000ca16      0x20b xcp_mem_default.o
+ .debug_abbrev  0x0000cc21      0x152 xcp_drv_rtiostream.o
+ .debug_abbrev  0x0000cd73       0x9c xcp_utils.o
+ .debug_abbrev  0x0000ce0f      0x226 xcp_frame_serial.o
+ .debug_abbrev  0x0000d035       0x81 xcp_ext_param_default_serial.o
+ .debug_abbrev  0x0000d0b6      0x454 mw_mbed_interface.o
+ .debug_abbrev  0x0000d50a      0x18a stm32f7xx_init_board.o
+ .debug_abbrev  0x0000d694      0x218 SysTickScheduler.o
+ .debug_abbrev  0x0000d8ac       0x89 m3m4m4f_multitasking.o
+ .debug_abbrev  0x0000d935      0x12f sys_arch.o
+ .debug_abbrev  0x0000da64      0x3e6 rtiostream_serial_dma.o
+ .debug_abbrev  0x0000de4a      0x459 mw_mbed_pintable_interface.o
+ .debug_abbrev  0x0000e2a3      0x122 xcp_platform_timer_mbed.o
 
 .debug_loc      0x00000000    0x13bca
  .debug_loc     0x00000000      0x29e C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/FILEHA~1.O
@@ -12721,7 +12721,7 @@ LOAD linker stubs
  .debug_ranges  0x00002420       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~2.O
  .debug_ranges  0x00002430       0x80 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/US_TIC~1.O
 
-.debug_line     0x00000000    0x2911a
+.debug_line     0x00000000    0x2918b
  .debug_line    0x00000000      0x8d1 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/FILEHA~1.O
  .debug_line    0x000008d1      0xd26 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/INTERR~1.O
  .debug_line    0x000015f7      0x453 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
@@ -12764,103 +12764,103 @@ LOAD linker stubs
  .debug_line    0x0001ba91      0x7cb C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~1.O
  .debug_line    0x0001c25c      0x414 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~2.O
  .debug_line    0x0001c670      0x6f1 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/US_TIC~1.O
- .debug_line    0x0001cd61      0xe66 MW_digitalIO.o
- .debug_line    0x0001dbc7      0xe77 MW_PWM.o
- .debug_line    0x0001ea3e      0x7b9 xcp_ext_mode.o
- .debug_line    0x0001f1f7      0x446 OutputCalibration.o
- .debug_line    0x0001f63d      0x606 ert_main.o
- .debug_line    0x0001fc43      0x68d xcp_ext_common.o
- .debug_line    0x000202d0      0x615 xcp_ext_classic_trigger.o
- .debug_line    0x000208e5      0xb81 xcp.o
- .debug_line    0x00021466      0x810 xcp_standard.o
- .debug_line    0x00021c76     0x195d xcp_daq.o
- .debug_line    0x000235d3      0x429 xcp_calibration.o
- .debug_line    0x000239fc      0x25d xcp_fifo.o
- .debug_line    0x00023c59      0x8bb xcp_transport.o
- .debug_line    0x00024514      0x9a1 xcp_mem_default.o
- .debug_line    0x00024eb5      0x60c xcp_drv_rtiostream.o
- .debug_line    0x000254c1      0x178 xcp_utils.o
- .debug_line    0x00025639      0x66e xcp_frame_serial.o
- .debug_line    0x00025ca7      0x130 xcp_ext_param_default_serial.o
- .debug_line    0x00025dd7      0xb86 mw_mbed_interface.o
- .debug_line    0x0002695d      0x3df stm32f7xx_init_board.o
- .debug_line    0x00026d3c      0x47b SysTickScheduler.o
- .debug_line    0x000271b7      0x1ca m3m4m4f_multitasking.o
- .debug_line    0x00027381      0x29b sys_arch.o
- .debug_line    0x0002761c      0xaec rtiostream_serial_dma.o
- .debug_line    0x00028108      0xb8d mw_mbed_pintable_interface.o
- .debug_line    0x00028c95      0x485 xcp_platform_timer_mbed.o
+ .debug_line    0x0001cd61      0xe69 MW_digitalIO.o
+ .debug_line    0x0001dbca      0xe7a MW_PWM.o
+ .debug_line    0x0001ea44      0x7bc xcp_ext_mode.o
+ .debug_line    0x0001f200      0x47e OutputCalibration.o
+ .debug_line    0x0001f67e      0x609 ert_main.o
+ .debug_line    0x0001fc87      0x690 xcp_ext_common.o
+ .debug_line    0x00020317      0x618 xcp_ext_classic_trigger.o
+ .debug_line    0x0002092f      0xb84 xcp.o
+ .debug_line    0x000214b3      0x813 xcp_standard.o
+ .debug_line    0x00021cc6     0x1960 xcp_daq.o
+ .debug_line    0x00023626      0x42c xcp_calibration.o
+ .debug_line    0x00023a52      0x260 xcp_fifo.o
+ .debug_line    0x00023cb2      0x8be xcp_transport.o
+ .debug_line    0x00024570      0x9a4 xcp_mem_default.o
+ .debug_line    0x00024f14      0x60f xcp_drv_rtiostream.o
+ .debug_line    0x00025523      0x178 xcp_utils.o
+ .debug_line    0x0002569b      0x671 xcp_frame_serial.o
+ .debug_line    0x00025d0c      0x133 xcp_ext_param_default_serial.o
+ .debug_line    0x00025e3f      0xb86 mw_mbed_interface.o
+ .debug_line    0x000269c5      0x3df stm32f7xx_init_board.o
+ .debug_line    0x00026da4      0x47b SysTickScheduler.o
+ .debug_line    0x0002721f      0x1ca m3m4m4f_multitasking.o
+ .debug_line    0x000273e9      0x29b sys_arch.o
+ .debug_line    0x00027684      0xaef rtiostream_serial_dma.o
+ .debug_line    0x00028173      0xb90 mw_mbed_pintable_interface.o
+ .debug_line    0x00028d03      0x488 xcp_platform_timer_mbed.o
 
-.debug_str      0x00000000    0x13d8a
- .debug_str     0x00000000    0x13d8a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/FILEHA~1.O
+.debug_str      0x00000000    0x13db0
+ .debug_str     0x00000000    0x13db0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/FILEHA~1.O
                                0x15fc (size before relaxing)
- .debug_str     0x00013d8a     0x28c9 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/INTERR~1.O
- .debug_str     0x00013d8a     0x12ad C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
- .debug_str     0x00013d8a     0x170f C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PwmOut.o
- .debug_str     0x00013d8a     0x25f5 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/can_api.o
- .debug_str     0x00013d8a       0xa5 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/except.o
- .debug_str     0x00013d8a     0x13b9 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/gpio_api.o
- .debug_str     0x00013d8a      0x846 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/HAL_TI~1.O
- .debug_str     0x00013d8a      0xd52 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_A~4.O
- .debug_str     0x00013d8a     0x11d7 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_B~1.O
- .debug_str     0x00013d8a      0x805 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_C~2.O
- .debug_str     0x00013d8a      0x7a8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_C~3.O
- .debug_str     0x00013d8a     0x399c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_E~1.O
- .debug_str     0x00013d8a     0x357b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_F~1.O
- .debug_str     0x00013d8a     0x1200 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_G~1.O
- .debug_str     0x00013d8a      0x8b1 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_O~2.O
- .debug_str     0x00013d8a     0x3ce0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_P~1.O
- .debug_str     0x00013d8a     0x34a2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_P~4.O
- .debug_str     0x00013d8a     0x6f8d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_R~1.O
- .debug_str     0x00013d8a      0x90f C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_S~1.O
- .debug_str     0x00013d8a     0x367b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_T~2.O
- .debug_str     0x00013d8a      0x9ac C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_U~1.O
- .debug_str     0x00013d8a      0xa3a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_W~1.O
- .debug_str     0x00013d8a     0x15a8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/pinmap.o
- .debug_str     0x00013d8a     0x1dd0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
- .debug_str     0x00013d8a      0x7f7 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~2.O
- .debug_str     0x00013d8a     0x1ec0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~3.O
- .debug_str     0x00013d8a     0x2707 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~4.O
- .debug_str     0x00013d8a      0x139 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STARTU~1.O
- .debug_str     0x00013d8a     0x126b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STM32F~1.O
- .debug_str     0x00013d8a     0x1357 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST58BF~1.O
- .debug_str     0x00013d8a      0xc83 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STD715~1.O
- .debug_str     0x00013d8a      0xa1a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST59B5~1.O
- .debug_str     0x00013d8a      0xb69 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST1107~1.O
- .debug_str     0x00013d8a      0xc07 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STE82D~1.O
- .debug_str     0x00013d8a      0xc56 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STA95B~1.O
- .debug_str     0x00013d8a     0x18f8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STD5E0~1.O
- .debug_str     0x00013d8a     0x143e C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST0571~1.O
- .debug_str     0x00013d8a     0x132c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST321F~1.O
- .debug_str     0x00013d8a      0xe41 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~1.O
- .debug_str     0x00013d8a      0x83c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~2.O
- .debug_str     0x00013d8a     0x16cb C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/US_TIC~1.O
- .debug_str     0x00013d8a     0x2301 MW_digitalIO.o
- .debug_str     0x00013d8a     0x2479 MW_PWM.o
- .debug_str     0x00013d8a      0xaac xcp_ext_mode.o
- .debug_str     0x00013d8a      0xf69 OutputCalibration.o
- .debug_str     0x00013d8a      0x719 ert_main.o
- .debug_str     0x00013d8a      0x82c xcp_ext_common.o
- .debug_str     0x00013d8a      0x89c xcp_ext_classic_trigger.o
- .debug_str     0x00013d8a     0x1361 xcp.o
- .debug_str     0x00013d8a      0xe07 xcp_standard.o
- .debug_str     0x00013d8a     0x15b6 xcp_daq.o
- .debug_str     0x00013d8a      0x905 xcp_calibration.o
- .debug_str     0x00013d8a      0x2fc xcp_fifo.o
- .debug_str     0x00013d8a      0x826 xcp_transport.o
- .debug_str     0x00013d8a      0x6a3 xcp_mem_default.o
- .debug_str     0x00013d8a      0x598 xcp_drv_rtiostream.o
- .debug_str     0x00013d8a      0x212 xcp_utils.o
- .debug_str     0x00013d8a      0x68a xcp_frame_serial.o
- .debug_str     0x00013d8a      0x2af xcp_ext_param_default_serial.o
- .debug_str     0x00013d8a     0x1fbb mw_mbed_interface.o
- .debug_str     0x00013d8a      0xac8 stm32f7xx_init_board.o
- .debug_str     0x00013d8a      0xb66 SysTickScheduler.o
- .debug_str     0x00013d8a      0x271 m3m4m4f_multitasking.o
- .debug_str     0x00013d8a      0x2a5 sys_arch.o
- .debug_str     0x00013d8a     0x22d0 rtiostream_serial_dma.o
- .debug_str     0x00013d8a     0x1f92 mw_mbed_pintable_interface.o
- .debug_str     0x00013d8a      0x39b xcp_platform_timer_mbed.o
+ .debug_str     0x00013db0     0x28c9 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/INTERR~1.O
+ .debug_str     0x00013db0     0x12ad C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PERIPH~1.O
+ .debug_str     0x00013db0     0x170f C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PwmOut.o
+ .debug_str     0x00013db0     0x25f5 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/can_api.o
+ .debug_str     0x00013db0       0xa5 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/except.o
+ .debug_str     0x00013db0     0x13b9 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/gpio_api.o
+ .debug_str     0x00013db0      0x846 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/HAL_TI~1.O
+ .debug_str     0x00013db0      0xd52 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_A~4.O
+ .debug_str     0x00013db0     0x11d7 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_B~1.O
+ .debug_str     0x00013db0      0x805 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_C~2.O
+ .debug_str     0x00013db0      0x7a8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_C~3.O
+ .debug_str     0x00013db0     0x399c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_E~1.O
+ .debug_str     0x00013db0     0x357b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_F~1.O
+ .debug_str     0x00013db0     0x1200 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_G~1.O
+ .debug_str     0x00013db0      0x8b1 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_O~2.O
+ .debug_str     0x00013db0     0x3ce0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_P~1.O
+ .debug_str     0x00013db0     0x34a2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_P~4.O
+ .debug_str     0x00013db0     0x6f8d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_R~1.O
+ .debug_str     0x00013db0      0x90f C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_S~1.O
+ .debug_str     0x00013db0     0x367b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_T~2.O
+ .debug_str     0x00013db0      0x9ac C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_U~1.O
+ .debug_str     0x00013db0      0xa3a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/MBED_W~1.O
+ .debug_str     0x00013db0     0x15a8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/pinmap.o
+ .debug_str     0x00013db0     0x1dd0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~1.O
+ .debug_str     0x00013db0      0x7f7 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/PWMOUT~2.O
+ .debug_str     0x00013db0     0x1ec0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~3.O
+ .debug_str     0x00013db0     0x2707 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SERIAL~4.O
+ .debug_str     0x00013db0      0x139 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STARTU~1.O
+ .debug_str     0x00013db0     0x126b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STM32F~1.O
+ .debug_str     0x00013db0     0x1357 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST58BF~1.O
+ .debug_str     0x00013db0      0xc83 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STD715~1.O
+ .debug_str     0x00013db0      0xa1a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST59B5~1.O
+ .debug_str     0x00013db0      0xb69 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST1107~1.O
+ .debug_str     0x00013db0      0xc07 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STE82D~1.O
+ .debug_str     0x00013db0      0xc56 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STA95B~1.O
+ .debug_str     0x00013db0     0x18f8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/STD5E0~1.O
+ .debug_str     0x00013db0     0x143e C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST0571~1.O
+ .debug_str     0x00013db0     0x132c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/ST321F~1.O
+ .debug_str     0x00013db0      0xe41 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~1.O
+ .debug_str     0x00013db0      0x83c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/SYSTEM~2.O
+ .debug_str     0x00013db0     0x16cb C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/US_TIC~1.O
+ .debug_str     0x00013db0     0x2304 MW_digitalIO.o
+ .debug_str     0x00013db0     0x247c MW_PWM.o
+ .debug_str     0x00013db0      0xaaf xcp_ext_mode.o
+ .debug_str     0x00013db0      0xf8c OutputCalibration.o
+ .debug_str     0x00013db0      0x71f ert_main.o
+ .debug_str     0x00013db0      0x82f xcp_ext_common.o
+ .debug_str     0x00013db0      0x89f xcp_ext_classic_trigger.o
+ .debug_str     0x00013db0     0x1364 xcp.o
+ .debug_str     0x00013db0      0xe0a xcp_standard.o
+ .debug_str     0x00013db0     0x15b9 xcp_daq.o
+ .debug_str     0x00013db0      0x908 xcp_calibration.o
+ .debug_str     0x00013db0      0x2ff xcp_fifo.o
+ .debug_str     0x00013db0      0x829 xcp_transport.o
+ .debug_str     0x00013db0      0x6a6 xcp_mem_default.o
+ .debug_str     0x00013db0      0x59b xcp_drv_rtiostream.o
+ .debug_str     0x00013db0      0x215 xcp_utils.o
+ .debug_str     0x00013db0      0x68d xcp_frame_serial.o
+ .debug_str     0x00013db0      0x2b2 xcp_ext_param_default_serial.o
+ .debug_str     0x00013db0     0x1fbe mw_mbed_interface.o
+ .debug_str     0x00013db0      0xacb stm32f7xx_init_board.o
+ .debug_str     0x00013db0      0xb69 SysTickScheduler.o
+ .debug_str     0x00013db0      0x274 m3m4m4f_multitasking.o
+ .debug_str     0x00013db0      0x2a8 sys_arch.o
+ .debug_str     0x00013db0     0x22d3 rtiostream_serial_dma.o
+ .debug_str     0x00013db0     0x1f95 mw_mbed_pintable_interface.o
+ .debug_str     0x00013db0      0x39e xcp_platform_timer_mbed.o
 
 .debug_frame    0x00000000     0x650c
  .debug_frame   0x00000000      0x10c C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NU36C8~1/TOOLCH~2/FILEHA~1.O
@@ -12957,7 +12957,7 @@ LOAD linker stubs
  .debug_frame   0x000064ec       0x20 C:/ProgramData/MATLAB/SupportPackages/R2024b/3P.instrset/gnuarm-armcortex.instrset/win/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-msizer.o)
 
 .debug_rnglists
-                0x00000000      0x7e1
+                0x00000000      0x7e2
  .debug_rnglists
                 0x00000000       0x4a MW_digitalIO.o
  .debug_rnglists
@@ -12965,46 +12965,46 @@ LOAD linker stubs
  .debug_rnglists
                 0x000000a0       0x5e xcp_ext_mode.o
  .debug_rnglists
-                0x000000fe       0x21 OutputCalibration.o
+                0x000000fe       0x22 OutputCalibration.o
  .debug_rnglists
-                0x0000011f       0x1a ert_main.o
+                0x00000120       0x1a ert_main.o
  .debug_rnglists
-                0x00000139       0x41 xcp_ext_common.o
+                0x0000013a       0x41 xcp_ext_common.o
  .debug_rnglists
-                0x0000017a       0x35 xcp_ext_classic_trigger.o
+                0x0000017b       0x35 xcp_ext_classic_trigger.o
  .debug_rnglists
-                0x000001af       0xcd xcp.o
+                0x000001b0       0xcd xcp.o
  .debug_rnglists
-                0x0000027c       0xa2 xcp_standard.o
+                0x0000027d       0xa2 xcp_standard.o
  .debug_rnglists
-                0x0000031e      0x150 xcp_daq.o
+                0x0000031f      0x150 xcp_daq.o
  .debug_rnglists
-                0x0000046e       0x4b xcp_calibration.o
+                0x0000046f       0x4b xcp_calibration.o
  .debug_rnglists
-                0x000004b9       0x37 xcp_fifo.o
+                0x000004ba       0x37 xcp_fifo.o
  .debug_rnglists
-                0x000004f0       0x78 xcp_transport.o
+                0x000004f1       0x78 xcp_transport.o
  .debug_rnglists
-                0x00000568       0x50 xcp_mem_default.o
+                0x00000569       0x50 xcp_mem_default.o
  .debug_rnglists
-                0x000005b8       0x34 xcp_drv_rtiostream.o
+                0x000005b9       0x34 xcp_drv_rtiostream.o
  .debug_rnglists
-                0x000005ec       0x14 xcp_utils.o
+                0x000005ed       0x14 xcp_utils.o
  .debug_rnglists
-                0x00000600       0x6a xcp_frame_serial.o
+                0x00000601       0x6a xcp_frame_serial.o
  .debug_rnglists
-                0x0000066a       0x1f xcp_ext_param_default_serial.o
+                0x0000066b       0x1f xcp_ext_param_default_serial.o
  .debug_rnglists
-                0x00000689       0x1f stm32f7xx_init_board.o
+                0x0000068a       0x1f stm32f7xx_init_board.o
  .debug_rnglists
-                0x000006a8       0x32 SysTickScheduler.o
+                0x000006a9       0x32 SysTickScheduler.o
  .debug_rnglists
-                0x000006da       0x19 m3m4m4f_multitasking.o
+                0x000006db       0x19 m3m4m4f_multitasking.o
  .debug_rnglists
-                0x000006f3       0x19 sys_arch.o
+                0x000006f4       0x19 sys_arch.o
  .debug_rnglists
-                0x0000070c       0xa8 rtiostream_serial_dma.o
+                0x0000070d       0xa8 rtiostream_serial_dma.o
  .debug_rnglists
-                0x000007b4       0x13 mw_mbed_pintable_interface.o
+                0x000007b5       0x13 mw_mbed_pintable_interface.o
  .debug_rnglists
-                0x000007c7       0x1a xcp_platform_timer_mbed.o
+                0x000007c8       0x1a xcp_platform_timer_mbed.o

@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'OutputCalibration'.
  *
- * Model version                  : 1.15
+ * Model version                  : 1.21
  * Simulink Coder version         : 24.2 (R2024b) 21-Jun-2024
- * C/C++ source code generated on : Fri Oct 11 18:28:37 2024
+ * C/C++ source code generated on : Wed Oct 16 11:57:03 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex-M
@@ -22,7 +22,7 @@
 #include "rtwtypes.h"
 #include "MW_SVD.h"
 
-/* Custom Type definition for MATLABSystem: '<Root>/PWM Output' */
+/* Custom Type definition for MATLABSystem: '<Root>/PWM Output1' */
 #include "MW_SVD.h"
 #ifndef struct_tag_Ozp2eEnpu3F9WqhX1DgjQF
 #define struct_tag_Ozp2eEnpu3F9WqhX1DgjQF
