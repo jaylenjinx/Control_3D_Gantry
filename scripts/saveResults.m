@@ -1,6 +1,11 @@
 %% Sys_id
 % Saves the current workspace values to a sys_id.mat material
-save("sys_id.mat", "x_pos", "y_pos", "z_pos", "x_angle", "y_angle", "x_control", "y_control", "time", "logsout");
+% save("sys_id.mat", "x_pos", "y_pos", "z_pos", "x_angle", "y_angle", "x_control", "y_control", "time", "logsout");
+
+Nini = 2000;%change this initial count to clean data
+time = logsout{1}.Values.Time(Nini:end);
+
+time = time - time(1);%required to start time from zero
 
 % Z Axis at 37cm
 % Z axis height from top of angle measurer thingo to top of weight
