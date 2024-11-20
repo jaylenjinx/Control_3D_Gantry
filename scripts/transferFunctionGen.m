@@ -28,25 +28,15 @@ np = 2;
 nz = 2;
 G_xa_id = tfest(data,np,nz)
 
-data = iddata(x_angle_matrix,x_control_matrix,fs);
-np = 2;
-nz = 2;
-G_ua_id = tfest(data,np,nz)
-
 data = iddata(y_pos_matrix,y_control_matrix,fs);
 np = 2;
 nz = 0;
-G_uy_id = tfest(data,np,nz)
+G_vy_id = tfest(data,np,nz)
 
 data = iddata(y_angle_matrix,y_pos_matrix,fs);
 np = 2;
 nz = 2;
-G_yu_id = tfest(data,np,nz)
-
-data = iddata(y_angle_matrix,y_control_matrix,fs);
-np = 2;
-nz = 2;
-G_ua2_id = tfest(data,np,nz)
+G_ya_id = tfest(data,np,nz)
 
 figure(1);
 tfestimate(x_control_matrix, x_pos_matrix, 1024, [], [], fs);
@@ -65,4 +55,4 @@ tfestimate(y_pos_matrix, y_angle_matrix, 1024, [], [], fs);
 [T_yp_ya,f] = tfestimate(y_pos_matrix, y_angle_matrix, 1024, [], [], fs);
 
 % Saves the current workspace values to a tf_est.mat material
-save("tf_est.mat", "x_control_matrix", "x_pos_matrix", "x_angle_matrix", "y_control_matrix", "y_pos_matrix", "y_angle_matrix", "z_pos_matrix", "T_xc_xp", "T_xp_xa", "T_yc_yp", "T_yp_ya", "f", "logsout");
+save("tf_est.mat", "x_control_matrix", "x_pos_matrix", "x_angle_matrix", "y_control_matrix", "y_pos_matrix", "y_angle_matrix", "z_pos_matrix", "T_xc_xp", "T_xp_xa", "T_yc_yp", "T_yp_ya", "f", "G_ux_id", "G_xa_id", "G_vy_id", "G_ya_id", "fs", "logsout");
